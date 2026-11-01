@@ -1,0 +1,11 @@
+# CQ5: pizza baking must say what it bakes, which role it realizes, where and when it occurs
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?missing WHERE {
+  ?baking rdfs:label "pizza baking"@en .
+  VALUES ?missing { "has participant"@en "realizes"@en "occurs in"@en "occupies temporal region"@en }
+  FILTER NOT EXISTS {
+    ?baking rdfs:subClassOf [ owl:onProperty ?p ; owl:someValuesFrom ?filler ] .
+    ?p rdfs:label ?missing .
+  }
+}

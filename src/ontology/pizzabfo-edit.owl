@@ -10,10 +10,16 @@
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:dcterms="http://purl.org/dc/terms/">
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:ontology="https://nfdi.fiz-karlsruhe.de/ontology/">
     <owl:Ontology rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl">
         <owl:imports rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_import.owl"/>
+        <owl:imports rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_process_site_and_history_import.owl"/>
         <owl:imports rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_specific_dependence_and_inherence_import.owl"/>
+        <owl:imports rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-organization-identified-located_import.owl"/>
+        <owl:imports rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-process-role-realization_import.owl"/>
+        <owl:imports rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-role-borne-by-agent_import.owl"/>
+        <owl:imports rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-temporal-region_import.owl"/>
         <dcterms:description xml:lang="en">A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title xml:lang="en">Pizza BFO Ontology</dcterms:title>
@@ -565,6 +571,82 @@
         </owl:equivalentClass>
         <obo:IAO_0000115 xml:lang="en">Any pizza that has at least one spicy topping.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">spicy pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An oven a pizzeria bakes its pizzas in.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pizza oven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An organization that makes and sells pizzas.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pizzeria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                <owl:someValuesFrom rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The role of an agent who bakes pizzas, realized in pizza baking.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pizza baker role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000199"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A process in which a pizza is baked in a pizza oven by an agent in the pizza baker role.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pizza baking</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

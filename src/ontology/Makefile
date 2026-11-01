@@ -3,6 +3,7 @@
 
 ONT_ID := pizzabfo
 ONT := $(ONT_ID)
+URIBASE := https://ebrahimnorouzi.github.io/pizza-bfo
 TODAY := $(shell date +%Y-%m-%d)
 VERSION ?= $(TODAY)
 VERSION_IRI ?= https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/releases/$(VERSION)/$(ONT).owl
@@ -34,6 +35,7 @@ reason:
 report:
 	$(ROBOT) report -i $(ONT)-edit.owl --profile profile.txt \
 	  --fail-on ERROR --labels true \
+	  --base-iri $(URIBASE)/PIZZABFO_ --base-iri $(URIBASE)/$(ONT) \
 	  --output report.tsv --format tsv
 
 sparql_test:

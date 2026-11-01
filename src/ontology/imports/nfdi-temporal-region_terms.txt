@@ -1,0 +1,24 @@
+# Terms extracted into nfdi-temporal-region_import.owl
+# Source: https://ontoboard.org/patterns/nfdi-temporal-region.owl
+# Pattern: nfdi-temporal-region
+# From OntoBoard's pattern library, so nothing downloads it and Refresh
+# imports leaves it alone. To change what the module contains, use
+# OntoBoard > ROBOT > Pattern library... and import the pattern again.
+# One term per line.
+http://purl.obolibrary.org/obo/BFO_0000001
+http://purl.obolibrary.org/obo/BFO_0000002
+http://purl.obolibrary.org/obo/BFO_0000003
+http://purl.obolibrary.org/obo/BFO_0000008
+http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/BFO_0000031
+http://purl.obolibrary.org/obo/BFO_0000035
+http://purl.obolibrary.org/obo/BFO_0000038
+http://purl.obolibrary.org/obo/BFO_0000121
+http://purl.obolibrary.org/obo/BFO_0000148
+http://purl.obolibrary.org/obo/BFO_0000199
+http://purl.obolibrary.org/obo/BFO_0000203
+http://purl.obolibrary.org/obo/BFO_0000222
+http://purl.obolibrary.org/obo/BFO_0000224
+http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/IAO_0000235
+https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001007

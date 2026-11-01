@@ -6,4 +6,9 @@
          those imports resolve from disk with no network. -->
     <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
     <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_specific_dependence_and_inherence_import.owl" uri="imports/bfo_specific_dependence_and_inherence_import.owl"/>
+    <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-process-role-realization_import.owl" uri="imports/nfdi-process-role-realization_import.owl"/>
+    <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-role-borne-by-agent_import.owl" uri="imports/nfdi-role-borne-by-agent_import.owl"/>
+    <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-temporal-region_import.owl" uri="imports/nfdi-temporal-region_import.owl"/>
+    <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_process_site_and_history_import.owl" uri="imports/bfo_process_site_and_history_import.owl"/>
+    <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-organization-identified-located_import.owl" uri="imports/nfdi-organization-identified-located_import.owl"/>
 </catalog>
