@@ -1,0 +1,7 @@
+# CQ3: Which pizzas are cheesy, and which have meat? (inferred by the reasoner)
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?pizza ?kind WHERE {
+  VALUES ?label { "cheesy pizza"@en "meaty pizza"@en }
+  ?k rdfs:label ?label ; rdfs:label ?kind .
+  ?class rdfs:subClassOf ?k ; rdfs:label ?pizza .
+} ORDER BY ?kind ?pizza

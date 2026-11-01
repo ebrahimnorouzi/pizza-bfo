@@ -1,0 +1,7 @@
+# CQ1: has base and has topping must be kinds of BFO 2020's has continuant part
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?property WHERE {
+  VALUES ?label { "has base"@en "has topping"@en }
+  ?property rdfs:label ?label .
+  FILTER NOT EXISTS { ?property rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000178> }
+}

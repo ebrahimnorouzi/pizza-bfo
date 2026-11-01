@@ -16,7 +16,11 @@ primary_release: full
 export_formats:
   - owl
 import_group:
-  products: []
+  products:
+    - id: bfo
+      mirror_from: http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+      module_type: slme
+      module_type_slme: BOT
 robot_report:
   use_labels: TRUE
   fail_on: ERROR
