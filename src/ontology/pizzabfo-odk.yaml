@@ -1,0 +1,24 @@
+# ODK configuration for Pizza BFO Ontology
+# This project's Makefile calls robot directly, so it needs make and robot on
+# PATH - not Docker. Nothing regenerates the Makefile from this file:
+# ODK's `make update_repo` is not part of this project. Put your own
+# rules in pizzabfo.Makefile, which the build includes
+# and never overwrites.
+id: pizzabfo
+title: "Pizza BFO Ontology"
+description: "A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates."
+uribase: https://ebrahimnorouzi.github.io/pizza-bfo
+license: https://creativecommons.org/licenses/by/4.0/
+robot_version: 1.9.8
+release_artefacts:
+  - full
+primary_release: full
+export_formats:
+  - owl
+import_group:
+  products: []
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  report_on:
+    - edit

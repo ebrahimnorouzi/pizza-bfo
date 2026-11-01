@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl#"
+     xml:base="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl">
+        <rdfs:label xml:lang="en">Pizza BFO Ontology</rdfs:label>
+        <dcterms:title xml:lang="en">Pizza BFO Ontology</dcterms:title>
+        <dcterms:description xml:lang="en">A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates.</dcterms:description>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo>0.1.0</owl:versionInfo>
+    </owl:Ontology>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+</rdf:RDF>
