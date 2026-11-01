@@ -7,13 +7,13 @@
 @base <https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl> .
 
 <https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl> rdf:type owl:Ontology ;
-                                                           owl:versionIRI <https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.4.0> ;
+                                                           owl:versionIRI <https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/1.0.0> ;
                                                            <http://purl.org/dc/terms/description> "A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates."@en ;
                                                            <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                            <http://purl.org/dc/terms/title> "Pizza BFO Ontology"@en ;
                                                            rdfs:label "Pizza BFO Ontology"@en ;
-                                                           owl:priorVersion <https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.3.0> ;
-                                                           owl:versionInfo "0.4.0"^^xsd:string .
+                                                           owl:priorVersion <https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.4.0> ;
+                                                           owl:versionInfo "1.0.0"^^xsd:string .
 
 #################################################################
 #    Annotation properties

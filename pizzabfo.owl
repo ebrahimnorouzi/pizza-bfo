@@ -13,13 +13,13 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:ontology="https://nfdi.fiz-karlsruhe.de/ontology/">
     <owl:Ontology rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl">
-        <owl:versionIRI rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.4.0"/>
+        <owl:versionIRI rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/1.0.0"/>
         <terms:description xml:lang="en">A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title xml:lang="en">Pizza BFO Ontology</terms:title>
         <rdfs:label xml:lang="en">Pizza BFO Ontology</rdfs:label>
-        <owl:priorVersion rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.3.0"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.4.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.4.0"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</owl:versionInfo>
     </owl:Ontology>
     
 
