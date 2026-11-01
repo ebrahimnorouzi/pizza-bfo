@@ -12,13 +12,13 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl">
-        <owl:versionIRI rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.2.0"/>
+        <owl:versionIRI rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.3.0"/>
         <terms:description xml:lang="en">A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title xml:lang="en">Pizza BFO Ontology</terms:title>
         <rdfs:label xml:lang="en">Pizza BFO Ontology</rdfs:label>
-        <owl:priorVersion rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.1.0"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.2.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.2.0"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.3.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -671,6 +671,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:label xml:lang="en">function</rdfs:label>
+        <skos:definition xml:lang="en">(Elucidation) A function is a disposition that exists in virtue of its bearer&apos;s physical make-up &amp; this physical make-up is something the bearer possesses because it came into being either through evolution (in the case of natural biological entities) or through intentional design (in the case of artefacts) in order to realize processes of a certain sort</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000035">
@@ -759,6 +769,16 @@
         <skos:definition xml:lang="en">b is an immaterial entity =Def b is an independent continuant which is such that there is no time t when it has a material entity as continuant part</skos:definition>
         <skos:example xml:lang="en">As for fiat point, fiat line, fiat surface, site</skos:example>
         <skos:prefLabel xml:lang="en">immaterial entity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:label xml:lang="en">relational quality</rdfs:label>
+        <skos:definition xml:lang="en">b is a relational quality =Def b is a quality &amp; there exists c and d such that c and d are not identical &amp; b specifically depends on c &amp; b specifically depends on d</skos:definition>
     </owl:Class>
     
 
@@ -903,6 +923,13 @@
 
     <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001015">
         <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001008"/>
+        <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                <owl:someValuesFrom rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A pizza topping of spicy salami.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">spicy salami topping</rdfs:label>
     </owl:Class>
@@ -933,6 +960,13 @@
 
     <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001018">
         <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001009"/>
+        <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                <owl:someValuesFrom rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A pizza topping of chili pepper.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">chili pepper topping</rdfs:label>
     </owl:Class>
@@ -988,6 +1022,7 @@
         <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001020"/>
         <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001026"/>
         <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001027"/>
+        <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004"/>
@@ -1150,6 +1185,79 @@
         <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000"/>
         <obo:IAO_0000115 xml:lang="en">Any pizza that has at least one meat topping.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">meaty pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 xml:lang="en">The quality of a food of being hot to taste, which inheres in the food.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">spiciness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029">
+        <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028"/>
+        <owl:disjointWith rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030"/>
+        <obo:IAO_0000115 xml:lang="en">A spiciness that is barely hot.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mild spiciness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030">
+        <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028"/>
+        <obo:IAO_0000115 xml:lang="en">A spiciness that is clearly hot.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">hot spiciness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                        <owl:someValuesFrom rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001002"/>
+        <obo:IAO_0000115 xml:lang="en">A pizza topping that bears a hot spiciness.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">spicy topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032 -->
+
+    <owl:Class rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004"/>
+                        <owl:someValuesFrom rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000"/>
+        <obo:IAO_0000115 xml:lang="en">Any pizza that has at least one spicy topping.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">spicy pizza</rdfs:label>
     </owl:Class>
     
 

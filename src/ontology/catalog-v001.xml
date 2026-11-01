@@ -5,4 +5,5 @@
          and the Makefile hands this file to robot with its catalog option, so
          those imports resolve from disk with no network. -->
     <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+    <uri id="User Entered Import Resolution" name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_specific_dependence_and_inherence_import.owl" uri="imports/bfo_specific_dependence_and_inherence_import.owl"/>
 </catalog>
