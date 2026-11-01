@@ -1,0 +1,12 @@
+# CQ7: Which pizzas did each pizzeria bake on 2026-11-01, and in which city?
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX nfdi: <https://nfdi.fiz-karlsruhe.de/ontology/>
+SELECT ?pizzeria ?city ?pizza ?started WHERE {
+  ?baking obo:RO_0000057 ?p ; obo:BFO_0000066 ?oven ; obo:BFO_0000199 ?when .
+  ?oven obo:RO_0001025 ?place .
+  ?place obo:RO_0001025 ?c .
+  ?when obo:BFO_0000222/nfdi:NFDI_0001007 ?started .
+  FILTER(STRSTARTS(STR(?started), "2026-11-01"))
+  ?place rdfs:label ?pizzeria . ?c rdfs:label ?city . ?p rdfs:label ?pizza .
+} ORDER BY ?pizzeria ?started

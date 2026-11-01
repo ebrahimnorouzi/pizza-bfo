@@ -90,6 +90,40 @@ Compare your work with a tag at any point: `git diff v0.2.0 v0.3.0 -- src/ontolo
 
 This README, and the release. Nothing in the ontology changed from 0.4.0.
 
+### v1.1.0 - the knowledge graph, from templates
+
+The instance data, kept apart from the ontology: [`kg/`](kg/).
+
+| | |
+|---|---|
+| Graph | [`kg/pizzabfo-kg.ttl`](kg/pizzabfo-kg.ttl), IRI `https://ebrahimnorouzi.github.io/pizza-bfo/kg.owl` |
+| Version IRI | `https://ebrahimnorouzi.github.io/pizza-bfo/kg/1.1.0`; kept as [`kg/releases/1.1.0/`](kg/releases/1.1.0/) |
+| Imports | the ontology release it was made for, by its version IRI `.../pizzabfo/1.0.0` - [`kg/catalog-v001.xml`](kg/catalog-v001.xml) maps it to `releases/1.0.0/pizzabfo.owl` |
+| Made from | nine ROBOT templates in [`kg/templates/`](kg/templates/): cities, pizzerias, bakers, their roles, ovens, instants, intervals, pizzas, bakings |
+
+1. In a spreadsheet, nine sheets - each a ROBOT template: your headings, then a row saying what
+   each column is (`ID`, `TYPE`, `AL rdfs:label@en`, `I RO:0000057` and so on). A sheet names
+   what another sheet makes by its label: a baking names its pizza as `order 1, a margherita`.
+   Only the first row of each sheet has an ID; the rest are left blank.
+2. Open `kg/pizzabfo-kg.ttl` in Protégé (*File → Open*); its catalog finds the ontology on disk.
+3. *OntoBoard → Knowledge graph → Sheet editor*: it opens `kg/templates/` by itself. For each
+   sheet's tab, *Generate IRIs...* → *Continue the numbering in these sheets* → *OK*: each sheet
+   continues its own numbering, `kg:PB_0000002` after `kg:PB_0000001`. *Save*.
+4. *Knowledge graph → Check sheets...* on `kg/templates/`: nothing to report.
+5. *Knowledge graph → Template...* → *Add the axioms to this ontology*, for each sheet in order -
+   cities first, bakings last, so every name a sheet uses already exists. 105 axioms, 25
+   individuals. *File → Save*.
+6. *Reasoner → HermiT*: consistent; `order 2, a diavola` is a spicy pizza, a cheesy pizza and a
+   meaty pizza - from the ontology's definitions, never asserted.
+7. The questions in [`kg/cq/`](kg/cq/), answered in [`kg/cq/answers.md`](kg/cq/answers.md): who
+   baked each pizza, in which oven and when; which pizzas each pizzeria baked on a day; which of
+   them were spicy.
+
+**Dates.** ROBOT does not give a value the datatype of its property's range, so a date typed as
+`2026-11-01T18:00:00` becomes text. Write `2026-11-01T18:00:00^^xsd:dateTime`, as
+`kg/templates/06_instants.tsv` does; *Template...* warns about a value written the other way when
+the property declares a datatype.
+
 ## Checking it
 
 *OntoBoard → Project → Build...* → `test`: the reasoner, the quality report, every query in

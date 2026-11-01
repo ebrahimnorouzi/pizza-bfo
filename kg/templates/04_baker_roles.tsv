@@ -1,0 +1,4 @@
+ID	Type	Name	Role of
+ID	TYPE	AL rdfs:label@en	I RO:0000081
+kg:PB_0000301	pizza baker role	baker role of Luigi Rossi	Luigi Rossi
+kg:PB_0000302	pizza baker role	baker role of Maria Esposito	Maria Esposito

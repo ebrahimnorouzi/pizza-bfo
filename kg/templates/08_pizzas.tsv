@@ -1,0 +1,5 @@
+ID	Type	Name
+ID	TYPE	AL rdfs:label@en
+kg:PB_0000701	margherita	order 1, a margherita
+kg:PB_0000702	diavola	order 2, a diavola
+kg:PB_0000703	quattro formaggi	order 3, a quattro formaggi
