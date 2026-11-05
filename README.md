@@ -11,6 +11,7 @@ version, and every release is a git tag.
 | Ontology IRI | `https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl` |
 | Latest release | [`pizzabfo.owl`](pizzabfo.owl), [`pizzabfo.ttl`](pizzabfo.ttl); each version under [`releases/`](releases/) |
 | Version IRIs | `https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/<version>` |
+| Documentation | [The ontology's documentation page](https://ebrahimnorouzi.github.io/pizza-bfo/ontology/index-en.html), written by *OntoBoard → Build and release → Documentation...* (Widoco); the [project site](https://ebrahimnorouzi.github.io/pizza-bfo/) |
 | Terms | numbered from the project's ID range: `PIZZABFO_0001000` and up |
 | Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Built with | OntoBoard 1.132.0 in Protégé - nothing else installed |
@@ -129,3 +130,8 @@ the property declares a datatype.
 *OntoBoard → Project → Build...* → `test`: the reasoner, the quality report, every query in
 `src/sparql/` (each returns what breaks a rule, so an empty answer passes) and the OWL 2 DL
 profile check - all inside Protégé.
+
+Every push runs the same `test` on GitHub, with `make` and ROBOT (`.github/workflows/qc.yml`). Its
+`src/ontology/Makefile` is the one OntoBoard 1.134.2 generates, the first whose `sparql_test` sees
+the imports as *Build...* does - so *Build...* on this checkout runs with OntoBoard 1.134.2; an
+earlier version says the Makefile is not the one it generates.

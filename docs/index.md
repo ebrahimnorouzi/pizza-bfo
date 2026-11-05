@@ -12,6 +12,7 @@ GitHub Actions, every time `main` changes.
 | Browse | `https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl` |
 | Edit file | `src/ontology/pizzabfo-edit.owl` |
 | Released file | `pizzabfo.owl` |
+| Documentation | [The ontology's documentation page](ontology/index-en.html) |
 
 Edit the **edit file**, never the released one: the released file is produced
 by the build and is overwritten by it.

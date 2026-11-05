@@ -1,0 +1,5666 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.obolibrary.org/obo", "http://www.w3.org/2000/01/rdf-schema", "https://nfdi.fiz-karlsruhe.de/ontology", "http://www.w3.org/2001/XMLSchema", "https://ebrahimnorouzi.github.io/pizza-bfo" ],
+    "title" : {
+      "en" : "Pizza BFO Ontology"
+    },
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl",
+    "version" : "1.0.0",
+    "description" : {
+      "en" : "A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates."
+    },
+    "labels" : {
+      "en" : "Pizza BFO Ontology"
+    },
+    "other" : {
+      "priorVersion" : [ {
+        "identifier" : "priorVersion",
+        "language" : "undefined",
+        "value" : "https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.4.0",
+        "type" : "iri"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Pizza BFO Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "155",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "199",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "218",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "151",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "146",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "205",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0020000",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0020000",
+      "en" : "identifier"
+    },
+    "subClasses" : [ "8", "9" ],
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000002",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "008-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "continuant",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A human being; a tennis ball; a cave; a region of space; someone's temperature",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000002",
+      "en" : "continuant"
+    },
+    "subClasses" : [ "60", "61", "62" ],
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000003",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "077-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An entity that has temporal parts and that happens, unfolds or develops through time.",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "occurrent",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: s-dependence obtains between every process and its participants in the sense that, as a matter of necessity, this process could not have existed unless these or those participants existed also. A process may have a succession of participants at different phases of its unfolding. Thus there may be different players on the field at different times during the course of a football game; but the process which is the entire game s-depends_on all of these players nonetheless. Some temporal parts of this process will s-depend_on on only some of the players.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: every occurrent that is not a temporal or spatiotemporal region is s-dependent on some independent continuant that is not a spatial region",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) An occurrent is an entity that unfolds itself in time or it is the start or end of such an entity or it is a temporal or spatiotemporal region",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "As for process, history, process boundary, spatiotemporal region, zero-dimensional temporal region, one-dimensional temporal region, temporal interval, temporal instant.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000003",
+      "en" : "occurrent"
+    },
+    "subClasses" : [ "64", "65", "66", "16" ],
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000001",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "001-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "Verdi’s Requiem",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "Julius Caesar",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "your body mass index",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the Second World War",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "entity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) An entity is anything that exists or has existed or will exist",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Julius Caesar; the Second World War; your body mass index; Verdi's Requiem",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000001",
+      "en" : "entity"
+    },
+    "subClasses" : [ "58", "63" ],
+    "attributes" : [ "external" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000006",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "035-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "spatial region",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A spatial region is a continuant entity that is a continuant part of the spatial projection of a portion of spacetime at a given time",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "As for zero-dimensional spatial region, one-dimensional spatial region, two-dimensional spatial region, three-dimensional spatial region",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000006",
+      "en" : "spatial region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000004",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "017-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a heart",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "an orchestra.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a leg",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "an atom",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a molecule",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a chair",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "an organism",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a spatial region",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the bottom right portion of a human torso",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the interior of your mouth",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "independent continuant",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b is an independent continuant =Def b is a continuant & there is no c such that b specifically depends on c or b generically depends on c",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "An atom; a molecule; an organism; a heart; a chair; the bottom right portion of a human torso; a leg; the interior of your mouth; a spatial region; an orchestra",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000004",
+      "en" : "independent continuant"
+    },
+    "subClasses" : [ "69", "70", "71" ],
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000008",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "100-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "temporal region",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A temporal region is an occurrent over which processes can unfold",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "As for zero-dimensional temporal region and one-dimensional temporal region",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000008",
+      "en" : "temporal region"
+    },
+    "subClasses" : [ "72", "19" ],
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000229",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Role of an independent continuant that is realized through an agent's actions, enabling the agent to perform specific functions or achieve particular outcomes within a system or context.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000229",
+      "en" : "agent role"
+    },
+    "subClasses" : [ "73", "74", "75", "76" ],
+    "intersection" : [ "51" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "50",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000106",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A place that refers to a densely populated urban area.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000106",
+      "en" : "city"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000228",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Role of an immaterial entity that facilitates the delivery or support of a service product, ensuring its proper execution and value realization.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000228",
+      "en" : "service product role"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000102",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An independent continuant that acts autonomously and is entrusted with the authority to represent, negotiate, or act on behalf of another agent.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000102",
+      "en" : "agent"
+    },
+    "subClasses" : [ "81" ],
+    "intersection" : [ "62" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "71",
+    "superClasses" : [ "62" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000119",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A place that refers to a defined geographical area distinguished by its territorial boundaries, governance structure, and sovereignty.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000119",
+      "en" : "country"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000118",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A role inherent in an agent that provides input, resources, or effort to support or enhance a project, work, or process.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000118",
+      "en" : "contributor role"
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000114",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A role inherent in an agent that is realized when the agent is a contact point of a resource or a project.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000114",
+      "en" : "contact point role"
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0000429",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Alan Ruttenberg 1/3/2012 - Provisional id, see issue at https://github.com/information-artifact-ontology/IAO/issues/130&thanks=130&ts=1325636583",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000429",
+      "en" : "email address"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0000303",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "University of Colorado Denver School of Medicine",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A textual entity intended to identify a particular institution",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000303",
+      "en" : "institutional identification"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000005",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A site that refers to geographical locations, such as cities, countries, landmarks, and natural environments.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000005",
+      "en" : "place"
+    },
+    "subClasses" : [ "21", "23" ],
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0000300",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "Words, sentences, paragraphs, and the written (non-figure) parts of publications are all textual entities",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "MC, 2009-09-14 (following IAO call 2009-09-01): textual entities live at the FRBR (http://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records) manifestation level. Everything is significant: line break, pdf and html versions of same document are different textual entities.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "AR, (IAO call 2009-09-01): a document as a whole is not typically a textual entity, because it has pictures in it - rather there are parts of it that are textual entities. Examples: The title, paragraph 2 sentence 7, etc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000300",
+      "en" : "textual entity"
+    },
+    "subClasses" : [ "25" ],
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000203",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A temporal instant is a zero-dimensional temporal region that has no proper temporal part",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000203",
+      "en" : "temporal instant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000182",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A history is a process that is the sum of the totality of processes taking place in the spatiotemporal region occupied by the material part of a material entity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000182",
+      "en" : "history"
+    },
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001013",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "NFDI_0010015" : [ {
+        "identifier" : "NFDI_0010015",
+        "language" : "en",
+        "value" : "ROR",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "ROR (Research Organization Registry) is a global, open, and community-driven registry of research organizations. It provides unique identifiers for institutions involved in research, enabling better data integration, disambiguation, and interoperability across scholarly communication systems.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0001013",
+      "en" : "ROR identifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "177",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0000578",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "The sentence \"The article has Pubmed ID 12345.\" contains a CRID that has two parts: one part is the CRID symbol, which is '12345'; the other part denotes the CRID registry, which is Pubmed.",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "2014-05-05: In defining this term we take no position on what the CRID denotes. In particular do not assume it denotes a *record* in the CRID registry (since the registry might not have 'records').",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000578",
+      "en" : "centrally registered identifier"
+    },
+    "subClasses" : [ "177" ],
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "6" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "70", "14" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "156"
+  }, {
+    "instances" : 0,
+    "union" : [ "64", "66" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0000444",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A planned process of making information, such as literature, music, and software etc., available to the public for sale or for free.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000444",
+      "en" : "publishing process"
+    },
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001041",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An identifier that denotes some postal delivery route, some aggregate of postal delivery routes or a geographical region and was created for the purpose of sorting and delivering mail.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0001041",
+      "en" : "postal code"
+    },
+    "subClasses" : [ "206" ],
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000193",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A role inherent in an agent that is realized when the bearer participates in the publishing of the document.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000193",
+      "en" : "publisher role"
+    },
+    "intersection" : [ "50" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "73",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000020",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "050-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the disposition of this fish to decay",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the mutual dependence of proton donors and acceptors in chemical reactions [79",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the smell of this portion of mozzarella",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the function of this heart: to pump blood",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the pink color of a medium rare piece of grilled filet mignon at its center",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "of one-sided specifically dependent continuants: the mass of this tomato",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of being a doctor",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the shape of this hole.",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "specifically dependent continuant",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b is a specifically dependent continuant =Def b is a continuant & there is some independent continuant c which is not a spatial region & which is such that b specifically depends on c",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "(with multiple bearers) John's love for Mary; the ownership relation between John and this statue; the relation of authority between John and his subordinates",
+        "type" : "label"
+      }, {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "(with one bearer) The mass of this tomato; the pink colour of a medium rare piece of grilled filet mignon at its centre; the smell of this portion of mozzarella; the disposition of this fish to decay; the role of being a doctor; the function of this heart to pump blood; the shape of this hole",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000020",
+      "en" : "specifically dependent continuant"
+    },
+    "subClasses" : [ "139", "133" ],
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000141",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "028-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "immaterial entity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b is an immaterial entity =Def b is an independent continuant which is such that there is no time t when it has a material entity as continuant part",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "As for fiat point, fiat line, fiat surface, site",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000141",
+      "en" : "immaterial entity"
+    },
+    "subClasses" : [ "171", "68", "14" ],
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "62" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001006",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A thick pizza base baked in a pan.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001006",
+      "en" : "deep pan base"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001005",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza base rolled thin and baked crisp.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001005",
+      "en" : "thin and crispy base"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001008",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping made of meat.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001008",
+      "en" : "meat topping"
+    },
+    "subClasses" : [ "87", "202" ],
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000140",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "029-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "continuant fiat boundary",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A continuant fiat boundary b is an immaterial entity that is of zero, one or two dimensions & such that there is no time t when b has a spatial region as continuant part & whose location is determined in relation to some material entity",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "As for fiat point, fiat line, fiat surface",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000140",
+      "en" : "continuant fiat boundary"
+    },
+    "attributes" : [ "external" ],
+    "id" : "171",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001007",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping made of cheese.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001007",
+      "en" : "cheese topping"
+    },
+    "subClasses" : [ "160", "210", "218" ],
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000024",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "027-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "fiat object part",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A fiat object part b is a material entity & such that if b exists then it is continuant part of some object c & demarcated from the remainder of c by one or more fiat surfaces",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The upper and lower lobes of the left lung; the dorsal and ventral surfaces of the body; the Western hemisphere of the Earth; the FMA:regional parts of an intact human body",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000024",
+      "en" : "fiat object part"
+    },
+    "subClasses" : [ "5" ],
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000145",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b is a relational quality =Def b is a quality & there exists c and d such that c and d are not identical & b specifically depends on c & b specifically depends on d",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000145",
+      "en" : "relational quality"
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "133" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001009",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping made of a vegetable.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001009",
+      "en" : "vegetable topping"
+    },
+    "subClasses" : [ "213", "158", "53" ],
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000023",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "061-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of subject in a clinical trial",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of a stone in marking a property boundary",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the priest role",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the student role",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of a building in serving as a military target",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of a boundary to demarcate two neighboring administrative territories",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives.",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "role",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A role b is a realizable entity such that b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be & b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "externally-grounded realizable entity",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The priest role; the student role; the role of subject in a clinical trial; the role of a stone in marking a property boundary; the role of a boundary to demarcate two neighbouring administrative territories; the role of a building in serving as a military target",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000023",
+      "en" : "role"
+    },
+    "subClasses" : [ "50", "55", "57" ],
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0000030",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "Examples of information content entites include journal articles, data, graphical layouts, and graphs.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "undefined",
+        "value" : "Examples of information content entites include journal articles, data, graphical layouts, and graphs.",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A generically dependent continuant that is about some thing.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000115",
+        "language" : "undefined",
+        "value" : "An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).\n\nPrevious. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "2014-03-10: The use of \"thing\" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000030",
+      "en" : "information content entity",
+      "undefined" : "information content entity"
+    },
+    "subClasses" : [ "6", "26", "35" ],
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An oven-baked flat bread with toppings: an object with a base and toppings as its parts.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001000",
+      "en" : "pizza"
+    },
+    "subClasses" : [ "37", "40", "42", "44" ],
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001002",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A portion of food put on a pizza base before it is baked.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001002",
+      "en" : "pizza topping"
+    },
+    "subClasses" : [ "46", "48", "29", "31", "1" ],
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001001",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "The baked dough of a pizza that its toppings rest on, a part of the pizza.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001001",
+      "en" : "pizza base"
+    },
+    "subClasses" : [ "4", "11" ],
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "108" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001042",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A postal code that is used in the United States for the purpose of sorting and delivering mail, and that denotes some postal delivery route or some aggregate of postal delivery routes.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0001042",
+      "en" : "zone improvement plan code"
+    },
+    "attributes" : [ "external" ],
+    "id" : "206",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000029",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "034-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "site",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A site is a three-dimensional immaterial entity whose boundaries either (partially or wholly) coincide with the boundaries of one or more material entities or have locations determined in relation to some material entity",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A hole in a portion of cheese; a rabbit hole; the Grand Canyon; the Piazza San Marco; the kangaroo-joey-containing hole of a kangaroo pouch; your left nostril (a fiat part - the opening - of your left nasal cavity); the lumen of your gut; the hold of a ship; the interior of the trunk of your car; hole in an engineered floor joist",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000029",
+      "en" : "site"
+    },
+    "subClasses" : [ "13" ],
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000148",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A zero-dimensional temporal region is a temporal region that is a whole consisting of one or more separated temporal instants as parts",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000148",
+      "en" : "zero-dimensional temporal region"
+    },
+    "subClasses" : [ "17" ],
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000027",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "025-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "object aggregate",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) An object aggregate is a material entity consisting exactly of a plurality (?1) of objects as member parts which together form a unit",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "undefined",
+        "value" : "'Exactly' means that there are no parts of the object aggregate other than its member parts.",
+        "type" : "label"
+      }, {
+        "identifier" : "scopeNote",
+        "language" : "undefined",
+        "value" : "The unit can, at certain times, consist of exactly one object, for example, when a wolf litter loses all but one of its pups, but it must at some time have a plurality of member parts.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The aggregate of the musicians in a symphony orchestra and their instruments; the aggregate of bearings in a constant velocity axle joint; the nitrogen atoms in the atmosphere; a collection of cells in a blood biobank",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000027",
+      "en" : "object aggregate"
+    },
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001017",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of mushroom.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001017",
+      "en" : "mushroom topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "213",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001016",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of tomato.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001016",
+      "en" : "tomato topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "158",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "199",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001019",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of pineapple.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001019",
+      "en" : "pineapple topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "137",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001018",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of chili pepper.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001018",
+      "en" : "chili pepper topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "29", "31" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000011",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "095-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "spatiotemporal region",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A spatiotemporal region is an occurrent that is an occurrent part of spacetime",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "'Spacetime' here refers to the maximal instance of the universal spatiotemporal region.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The spatiotemporal region occupied by the development of a cancer tumour; the spatiotemporal region occupied by an orbiting satellite",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000011",
+      "en" : "spatiotemporal region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001058",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A role inherent in an agent that is realized when shareing the responsibilities of representing an organization, group, or initiative, typically communicating its views, policies, or findings to the public.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0001058",
+      "en" : "co spokesperson role"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001011",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of mozzarella.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001011",
+      "en" : "mozzarella topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "160",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001010",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping made of fruit.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001010",
+      "en" : "fruit topping"
+    },
+    "subClasses" : [ "137" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001013",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of gorgonzola.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001013",
+      "en" : "gorgonzola topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "210",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001012",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of parmesan.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001012",
+      "en" : "parmesan topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "218",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001015",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of spicy salami.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001015",
+      "en" : "spicy salami topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "46", "31" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001014",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping of ham.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001014",
+      "en" : "ham topping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "202",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000017",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "058-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the disposition of your blood to coagulate",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the disposition of this piece of metal to conduct electricity.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of being a doctor",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of this boundary to delineate where Utah and Colorado meet",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the function of your reproductive organs",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "realizable entity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A realizable entity is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region & which is of a type some instances of which are realized in processes of a correlated type",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The role of being a doctor; the role of this boundary to delineate where Utah and Colorado meet; the function of your reproductive organs; the disposition of your blood to coagulate; the disposition of this piece of metal to conduct electricity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000017",
+      "en" : "realizable entity"
+    },
+    "subClasses" : [ "51", "129" ],
+    "attributes" : [ "external" ],
+    "id" : "139",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "152",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "151",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000015",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "083-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the life of an organism",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a process of meiosis",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the course of a disease",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a process of sleeping",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a process of cell-division, \\ a beating of the heart",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the flight of a bird",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "your process of aging.",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "process",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) p is a process means p is an occurrent that has some temporal proper part and for some time t, p has some material entity as participant",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "event",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "An act of selling; the life of an organism; a process of sleeping; a process of cell-division; a beating of the heart; a process of meiosis; the taxiing of an aircraft; the programming of a computer",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000015",
+      "en" : "process"
+    },
+    "subClasses" : [ "122", "124", "126" ],
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000016",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "062-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "disposition",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "internally-grounded realizable entity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A disposition b is a realizable entity such that if b ceases to exist then its bearer is physically changed & b's realization occurs when and because this bearer is in some special physical circumstances & this realization occurs in virtue of the bearer's physical make-up",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "An atom of element X has the disposition to decay to an atom of element Y; the cell wall is disposed to transport cellular material through endocytosis and exocytosis; certain people have a predisposition to colon cancer; children are innately disposed to categorize objects in certain ways",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000016",
+      "en" : "disposition"
+    },
+    "subClasses" : [ "128" ],
+    "attributes" : [ "external" ],
+    "id" : "129",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "153",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "64", "66" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/OBI_0000245",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "PMID: 16353909.AAPS J. 2005 Sep 22;7(2):E274-80. Review. The joint food and agriculture organization of the United Nations/World Health Organization Expert Committee on Food Additives and its role in the evaluation of the safety of veterinary drug residues in foods.",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:\n\n1) there are organization_member_roles (president, treasurer, branch\neditor), with individual persons as bearers\n\n2) there are organization_roles (employer, owner, vendor, patent holder)\n\n3) an organization has a charter / rules / bylaws, which specify what roles\nthere are, how they should be realized, and how to modify the\ncharter/rules/bylaws themselves.\n\nIt is debatable what the organization itself is (some kind of dependent\ncontinuant or an aggregate of people). This also determines who/what the\nbearer of organization_roles' are. My personal favorite is still to define\norganization as a kind of 'legal entity', but thinking it through leads to\nall kinds of questions that are clearly outside the scope of OBI.\n\nInterestingly enough, it does not seem to matter much where we place\norganization itself, as long as we can subclass it (University, Corporation,\nGovernment Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,\nW3C, University of Oklahoma), and have it play roles.\n\nThis leads to my proposal: We define organization through the statements 1 -\n3 above, but without an 'is a' statement for now. We can leave it in its\ncurrent place in the is_a hierarchy (material entity) or move it up to\n'continuant'. We leave further clarifications to BFO, and close this issue\nfor now.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OBI_0000245",
+      "en" : "organization"
+    },
+    "subClasses" : [ "131" ],
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "71" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "70", "14" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000019",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "055-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "quality",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The colour of a tomato; the ambient temperature of this portion of air; the length of the circumference of your waist; the shape of your nose; the shape of your nostril; the mass of this piece of gold",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000019",
+      "en" : "quality"
+    },
+    "subClasses" : [ "116", "135" ],
+    "attributes" : [ "external" ],
+    "id" : "133",
+    "superClasses" : [ "60" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "60", "66" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "78"
+  }, {
+    "instances" : 0,
+    "union" : [ "64", "66" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "205"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "The quality of a food of being hot to taste, which inheres in the food.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001028",
+      "en" : "spiciness"
+    },
+    "subClasses" : [ "115", "118" ],
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "133" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001027",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Any pizza that has at least one meat topping.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001027",
+      "en" : "meaty pizza"
+    },
+    "subClasses" : [ "89", "95" ],
+    "intersection" : [ "38" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "37",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000040",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "019-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "material entity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A material entity is an independent continuant has some portion of matter as continuant part",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A human being; the undetached arm of a human being; an aggregate of human beings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000040",
+      "en" : "material entity"
+    },
+    "subClasses" : [ "84", "108", "110", "2" ],
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "62" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A spiciness that is barely hot.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001029",
+      "en" : "mild spiciness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001020",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza that a menu offers under a name.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001020",
+      "en" : "named pizza"
+    },
+    "subClasses" : [ "89", "105", "91", "93", "95" ],
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001022",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A named pizza topped with mozzarella, tomato, spicy salami.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001022",
+      "en" : "diavola"
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "37", "40", "42", "44" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001021",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A named pizza topped with mozzarella, tomato.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001021",
+      "en" : "margherita"
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "40", "44" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001024",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A named pizza topped with mozzarella, tomato, mushroom.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001024",
+      "en" : "funghi"
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "40", "44" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001023",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A named pizza topped with mozzarella, parmesan, gorgonzola, tomato.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001023",
+      "en" : "quattro formaggi"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "40", "44" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001026",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Any pizza that has at least one cheese topping.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001026",
+      "en" : "cheesy pizza"
+    },
+    "subClasses" : [ "89", "105", "91", "93", "95" ],
+    "intersection" : [ "38" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "44",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001025",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A named pizza topped with mozzarella, tomato, ham, pineapple.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001025",
+      "en" : "hawaiian"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "37", "40", "44" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000031",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "074-BFO",
+        "type" : "label"
+      } ],
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the pdf file on your laptop, the pdf file that is a copy thereof on my laptop",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule.",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "generically dependent continuant",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "g-dependent continuant",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A generically dependent continuant is an entity that exists in virtue of the fact that there is at least one of what may be multiple copies which is the content or the pattern that multiple copies would share",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The pdf file on your laptop; the pdf file that is a copy thereof on my laptop; the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule; the content that is shared by a string of dots and dashes written on a page and the transmitted Morse code signal; the content of a sentence; an engineering blueprint",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000031",
+      "en" : "generically dependent continuant"
+    },
+    "subClasses" : [ "7" ],
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000030",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "024-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "object",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) An object is a material entity which manifests causal unity & is of a type instances of which are maximal relative to the sort of causal unity manifested",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "An organism; a fish tank; a planet; a laptop; a valve; a block of marble; an ice cube",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "A description of three primary sorts of causal unity is provided in Basic Formal Ontology 2.0. Specification and User Guide",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000030",
+      "en" : "object"
+    },
+    "subClasses" : [ "38", "83" ],
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000035",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "084-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "process boundary",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "p is a process boundary =Def p is a temporal part of a process & p has no proper temporal parts",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The boundary between the 2nd and 3rd year of your life",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000035",
+      "en" : "process boundary"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000034",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A function is a disposition that exists in virtue of its bearer's physical make-up & this physical make-up is something the bearer possesses because it came into being either through evolution (in the case of natural biological entities) or through intentional design (in the case of artefacts) in order to realize processes of a certain sort",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000034",
+      "en" : "function"
+    },
+    "attributes" : [ "external" ],
+    "id" : "128",
+    "superClasses" : [ "129" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A pizza topping that bears a hot spiciness.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001031",
+      "en" : "spicy topping"
+    },
+    "subClasses" : [ "53", "87" ],
+    "intersection" : [ "2" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "31",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A spiciness that is clearly hot.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001030",
+      "en" : "hot spiciness"
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An oven a pizzeria bakes its pizzas in.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001033",
+      "en" : "pizza oven"
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Any pizza that has at least one spicy topping.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001032",
+      "en" : "spicy pizza"
+    },
+    "subClasses" : [ "89" ],
+    "intersection" : [ "38" ],
+    "attributes" : [ "intersection", "external" ],
+    "id" : "42",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "The role of an agent who bakes pizzas, realized in pizza baking.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001035",
+      "en" : "pizza baker role"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "An organization that makes and sells pizzas.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001034",
+      "en" : "pizzeria"
+    },
+    "attributes" : [ "external" ],
+    "id" : "131",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "instances" : 0,
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A process in which a pizza is baked in a pizza oven by an agent in the pizza baker role.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001036",
+      "en" : "pizza baking"
+    },
+    "attributes" : [ "external" ],
+    "id" : "126",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000038",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "103-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "one-dimensional temporal region",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A one-dimensional temporal region is a temporal region that is a whole that has a temporal interval and zero or more temporal intervals and temporal instants as parts",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "The temporal region during which a process occurs",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000038",
+      "en" : "one-dimensional temporal region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "16" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "159",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "161",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "164",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "165",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "166",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "167",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "169",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "170",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "174",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "178",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "180",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "182",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "183",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "184",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "185",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "186",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "187",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "188",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "189",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "191",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "192",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "193",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "194",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "195",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "196",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "197",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "198",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "201",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "204",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "207",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "208",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "209",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "211",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "212",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "214",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "215",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "216",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "217",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "241",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "242",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "243",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000222",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "17",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "t has first instant t' =Def t' first instant of t",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000222",
+      "en" : "has first instant"
+    },
+    "domain" : "16",
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "15"
+  }, {
+    "range" : "19",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "13",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "13",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000224",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "17",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "t has last instant t' =Def t' last instant of t",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000224",
+      "en" : "has last instant"
+    },
+    "domain" : "16",
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "27"
+  }, {
+    "range" : "2",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "2",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "7",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "7",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "38",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "38",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "38",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "38",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "2",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "2",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "51",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "29",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "51",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "51",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000121",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "63",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b has temporal part c =Def c temporal part of b",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000121",
+      "en" : "has temporal part"
+    },
+    "domain" : "63",
+    "attributes" : [ "object", "transitive", "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000059",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "61",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The quality (a specifically dependent continuant) concretizes the journal article (a generically dependent continuant), and both depend on that copy of the printed journal (an independent continuant).",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process).",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "A relationship between a specifically dependent continuant or process and a generically dependent continuant, in which the generically dependent continuant depends on some independent continuant in virtue of the fact that the specifically dependent continuant or process also depends on that same independent continuant. Multiple specifically dependent continuants or processes can concretize the same generically dependent continuant.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000059",
+      "en" : "concretizes"
+    },
+    "domain" : "78",
+    "attributes" : [ "object", "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000057",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "58",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this blood coagulation has participant this blood clot",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this investigation has participant this investigator",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this process has participant this input material (or this output material)",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between a process and a continuant, in which the continuant is somehow involved in the process",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000057",
+      "en" : "has participant"
+    },
+    "domain" : "63",
+    "attributes" : [ "object", "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0001025",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "62",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "my brain is located in my head",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this rat is located in this cage",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between two independent continuants, the target and the location, in which the target is entirely within the location",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0001025",
+      "en" : "located in"
+    },
+    "domain" : "62",
+    "attributes" : [ "object", "transitive", "external" ],
+    "id" : "80"
+  }, {
+    "range" : "84",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "31",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "31",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "42",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "44",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "44",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "44",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "61",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "84",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000081",
+    "inverse" : "99",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "62",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this investigator role is a role of this person",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000081",
+      "en" : "role of"
+    },
+    "domain" : "51",
+    "attributes" : [ "object", "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "51",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this person has role this investigator role (more colloquially: this person has this role of investigator)",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000087",
+      "en" : "has role"
+    },
+    "domain" : "62",
+    "attributes" : [ "object", "external" ],
+    "id" : "99"
+  }, {
+    "range" : "40",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "40",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "40",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "44",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "44",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "70",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "70",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "70",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "70",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "40",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "40",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "116",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "116",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "37",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "37",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "66",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "66",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "66",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "129",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "81",
+    "domain" : "131",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "133",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "133",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "1",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "139",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "139",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0000235",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "7",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "inverse of the relation 'denotes'",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000235",
+      "en" : "denoted by"
+    },
+    "domain" : "59",
+    "subproperty" : [ "142" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000185",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "124",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b has history c =Def c history of b",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000185",
+      "en" : "has history"
+    },
+    "domain" : "70",
+    "attributes" : [ "object", "external" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000183",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "146",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "267-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "environs",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b environs c =Def c occurs in b",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Mouth environs process of mastication; city environs traffic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000183",
+      "en" : "environs"
+    },
+    "domain" : "145",
+    "attributes" : [ "object", "external" ],
+    "id" : "144"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "87",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "89",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000184",
+    "inverse" : "143",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "70",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) history of is a relation between history b and material entity c such that b is the unique history of c",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000184",
+      "en" : "history of"
+    },
+    "domain" : "124",
+    "attributes" : [ "functional", "inverse functional", "object", "external" ],
+    "id" : "149"
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001007",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "range" : "152",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A relation between an information content entity and its specific value.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0001007",
+      "en" : "has value"
+    },
+    "domain" : "151",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "150"
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001006",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The property relates a thing to the corresponding entry or related concept of the item in a central register, e.g. GND, VIAF, RISM, Wikidata or ROR.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0001006",
+      "en" : "has external identifier"
+    },
+    "superproperty" : [ "141" ],
+    "domain" : "153",
+    "attributes" : [ "object", "external" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000066",
+    "inverse" : "144",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "156",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "143-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "occurs in",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b occurs in c =Def b is a process or a process boundary & c is a material entity or site & there exists a spatiotemporal region r & b occupies spatiotemporal region r & for all time t, if b exists at t then c exists at t & there exist spatial regions s and s' where b spatially projects onto s at t & c occupies spatial region s' at t & s is a continuant part of s' at t",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A process of digestion occurs in the interior of an organism; a process of loading artillery rounds into a tank cannon occurs in the interior of the tank",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000066",
+      "en" : "occurs in"
+    },
+    "domain" : "155",
+    "attributes" : [ "object", "external" ],
+    "id" : "154"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "158",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "89",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "157"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "160",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "105",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000196",
+    "inverse" : "162",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "118",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "053-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "bearer of",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b bearer of c =Def c inheres in b",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000196",
+      "en" : "bearer of"
+    },
+    "superproperty" : [ "163" ],
+    "domain" : "87",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001003",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "5",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to the base that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001003",
+      "en" : "has base"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "38",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "164"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "158",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "105",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000196",
+    "inverse" : "162",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "118",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "053-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "bearer of",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b bearer of c =Def c inheres in b",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000196",
+      "en" : "bearer of"
+    },
+    "superproperty" : [ "163" ],
+    "domain" : "53",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "166"
+  }, {
+    "range" : "69",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
+    "inverse" : "148",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "70",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "221-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "continuant part of at some time",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b continuant part of c =Def b and c are continuants & there is some time t such that b and c exist at t & b continuant part of c at t",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Milk teeth continuant part of human; surgically removed tumour continuant part of organism",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000176",
+      "en" : "continuant part of"
+    },
+    "domain" : "70",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000121",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "19",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b has temporal part c =Def c temporal part of b",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000121",
+      "en" : "has temporal part"
+    },
+    "domain" : "19",
+    "attributes" : [ "allValues", "object", "transitive", "external" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000178",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "171",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "271-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "has continuant part at some time",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b has continuant part c =Def c continuant part of b",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000178",
+      "en" : "has continuant part"
+    },
+    "domain" : "171",
+    "subproperty" : [ "172", "173" ],
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000054",
+    "inverse" : "175",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "66",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "206-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "has realization",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b has realization c =Def c realizes b",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "realized in",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "As for realizes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000054",
+      "en" : "has realization"
+    },
+    "domain" : "139",
+    "attributes" : [ "object", "external" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000178",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "58",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "271-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "has continuant part at some time",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b has continuant part c =Def c continuant part of b",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000178",
+      "en" : "has continuant part"
+    },
+    "domain" : "58",
+    "subproperty" : [ "172", "173" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
+    "inverse" : "148",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "58",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "221-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "continuant part of at some time",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b continuant part of c =Def b and c are continuants & there is some time t such that b and c exist at t & b continuant part of c at t",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Milk teeth continuant part of human; surgically removed tumour continuant part of organism",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000176",
+      "en" : "continuant part of"
+    },
+    "domain" : "58",
+    "attributes" : [ "object", "external" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000055",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "139",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "059-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "realizes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) realizes is a relation between a process b and realizable entity c such that c inheres in some d & for all t, if b has participant d then c exists & the type instantiated by b is correlated with the type instantiated by c",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A balding process realizes a disposition to go bald; a studying process realizes a student role; a process of pumping blood realizes the pumping function of a heart",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000055",
+      "en" : "realizes"
+    },
+    "domain" : "66",
+    "attributes" : [ "object", "external" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000121",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "64",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b has temporal part c =Def c temporal part of b",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000121",
+      "en" : "has temporal part"
+    },
+    "domain" : "64",
+    "attributes" : [ "allValues", "object", "transitive", "external" ],
+    "id" : "178"
+  }, {
+    "range" : "133",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "19",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "64",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "66",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "51",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "64",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "65",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "64",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "66",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "50",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this person has role this investigator role (more colloquially: this person has this role of investigator)",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000087",
+      "en" : "has role"
+    },
+    "domain" : "71",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "188"
+  }, {
+    "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000182",
+    "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
+    "range" : "81",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The property is a parental relationship between organizations.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NFDI_0000182",
+      "en" : "has parent organization"
+    },
+    "domain" : "81",
+    "attributes" : [ "object", "external" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000066",
+    "inverse" : "144",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "83",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "143-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "occurs in",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b occurs in c =Def b is a process or a process boundary & c is a material entity or site & there exists a spatiotemporal region r & b occupies spatiotemporal region r & for all time t, if b exists at t then c exists at t & there exist spatial regions s and s' where b spatially projects onto s at t & c occupies spatial region s' at t & s is a continuant part of s' at t",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A process of digestion occurs in the interior of an organism; a process of loading artillery rounds into a tank cannon occurs in the interior of the tank",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000066",
+      "en" : "occurs in"
+    },
+    "domain" : "126",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000057",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "38",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this blood coagulation has participant this blood clot",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this investigation has participant this investigator",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this process has participant this input material (or this output material)",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between a process and a continuant, in which the continuant is somehow involved in the process",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000057",
+      "en" : "has participant"
+    },
+    "domain" : "126",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "191"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000199",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "72",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "p occupies temporal region t =Def p is a process or process boundary & the spatiotemporal region occupied by p temporally projects onto t",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000199",
+      "en" : "occupies temporal region"
+    },
+    "domain" : "126",
+    "attributes" : [ "functional", "object", "someValues", "external" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000055",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "57",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "059-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "realizes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) realizes is a relation between a process b and realizable entity c such that c inheres in some d & for all t, if b has participant d then c exists & the type instantiated by b is correlated with the type instantiated by c",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A balding process realizes a disposition to go bald; a studying process realizes a student role; a process of pumping blood realizes the pumping function of a heart",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000055",
+      "en" : "realizes"
+    },
+    "domain" : "126",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "193"
+  }, {
+    "range" : "118",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "158",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "95",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0000081",
+    "inverse" : "99",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "71",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this investigator role is a role of this person",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0000081",
+      "en" : "role of"
+    },
+    "domain" : "57",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0001025",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "23",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "my brain is located in my head",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this rat is located in this cage",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between two independent continuants, the target and the location, in which the target is entirely within the location",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0001025",
+      "en" : "located in"
+    },
+    "domain" : "131",
+    "attributes" : [ "object", "transitive", "someValues", "external" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000196",
+    "inverse" : "162",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "60",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "053-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "bearer of",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b bearer of c =Def c inheres in b",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A patch of ink is the bearer of a colour quality; an organism is the bearer of a temperature quality",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000196",
+      "en" : "bearer of"
+    },
+    "superproperty" : [ "163" ],
+    "domain" : "199",
+    "attributes" : [ "object", "external" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000197",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "199",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "051-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "inheres in",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b inheres in c =Def b is a specifically dependent continuant & c is an independent continuant that is not a spatial region & b specifically depends on c",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A shape inheres in a shaped object; a mass inheres in a material entity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000197",
+      "en" : "inheres in"
+    },
+    "superproperty" : [ "200" ],
+    "domain" : "60",
+    "attributes" : [ "object", "external" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000194",
+    "inverse" : "200",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "60",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "260-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "specifically depended on by",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "s-depended on by",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b specifically depended on by c =Def c specifically depends on b",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Coloured object specifically depended on by colour",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000194",
+      "en" : "specifically depended on by"
+    },
+    "domain" : "199",
+    "subproperty" : [ "198" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "163"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "202",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "95",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000195",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "199",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "012-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "specifically depends on",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "s-depends on",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) specifically depends on is a relation between a specifically dependent continuant b and specifically dependent continuant or independent continuant that is not a spatial region c such that b and c share no parts in common & b is of a nature such that at all times t it cannot exist unless c exists & b is not a boundary of c",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A shape specifically depends on the shaped object; hue, saturation and brightness of a colour sample specifically depends on each other",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "The analogue of specifically depends on for occurrents is has participant.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000195",
+      "en" : "specifically depends on"
+    },
+    "domain" : "60",
+    "subproperty" : [ "162" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "200"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "160",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "95",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000199",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "16",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "p occupies temporal region t =Def p is a process or process boundary & the spatiotemporal region occupied by p temporally projects onto t",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000199",
+      "en" : "occupies temporal region"
+    },
+    "domain" : "205",
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "204"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "137",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "95",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "207"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "158",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "91",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "208"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "210",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "93",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "209"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "160",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "91",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "211"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "213",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "91",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "212"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "160",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "93",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "214"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "160",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "89",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "215"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "158",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "93",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "216"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "218",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "93",
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "217"
+  }, {
+    "range" : "59",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "59",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "62",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "62",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "63",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "2",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to a topping that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001004",
+      "en" : "has topping"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "38",
+    "attributes" : [ "object", "external" ],
+    "id" : "172"
+  }, {
+    "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001003",
+    "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
+    "range" : "5",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "Relates a pizza to the base that is a part of it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PIZZABFO_0001003",
+      "en" : "has base"
+    },
+    "superproperty" : [ "148" ],
+    "domain" : "38",
+    "attributes" : [ "object", "external" ],
+    "id" : "173"
+  }, {
+    "range" : "63",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "range" : "63",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "58",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "58",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "range" : "63",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "58",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "6",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "8",
+    "domain" : "177",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "108",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "48",
+    "domain" : "218",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "29",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "29",
+    "domain" : "213",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "46",
+    "domain" : "202",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "48",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "48",
+    "domain" : "160",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
+    "inverse" : "148",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "62",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "221-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "continuant part of at some time",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b continuant part of c =Def b and c are continuants & there is some time t such that b and c exist at t & b continuant part of c at t",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Milk teeth continuant part of human; surgically removed tumour continuant part of organism",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000176",
+      "en" : "continuant part of"
+    },
+    "domain" : "62",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "240"
+  }, {
+    "range" : "60",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "61",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "61",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
+    "inverse" : "148",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "68",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "221-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "continuant part of at some time",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b continuant part of c =Def b and c are continuants & there is some time t such that b and c exist at t & b continuant part of c at t",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Milk teeth continuant part of human; surgically removed tumour continuant part of organism",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000176",
+      "en" : "continuant part of"
+    },
+    "domain" : "68",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "244"
+  }, {
+    "range" : "14",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "171",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "171",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
+    "inverse" : "148",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "58",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "221-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "continuant part of at some time",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b continuant part of c =Def b and c are continuants & there is some time t such that b and c exist at t & b continuant part of c at t",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Milk teeth continuant part of human; surgically removed tumour continuant part of organism",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000176",
+      "en" : "continuant part of"
+    },
+    "domain" : "58",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "248"
+  }, {
+    "range" : "63",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "69",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "69",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "46",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "69",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "9",
+    "domain" : "206",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "71",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "60",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "60",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "range" : "50",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "range" : "50",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  }, {
+    "range" : "50",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "16",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "62",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "50",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "263"
+  }, {
+    "range" : "16",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  } ]
+}

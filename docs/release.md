@@ -1,13 +1,28 @@
 # Releasing Pizza BFO Ontology
 
-A release is a dated, frozen copy that other ontologies can import and that
-will not change under them.
+A release is a frozen copy that other ontologies can import and that will not
+change under them. This project numbers its releases semantically:
+`MAJOR.MINOR.PATCH`.
 
-1. Make sure `test` passes.
-2. **OntoBoard > Project > Release...**, which stamps a version IRI of the
-   form `https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/releases/YYYY-MM-DD/pizzabfo.owl`
-   and writes both the dated copy and the published `pizzabfo.owl`.
-3. Commit both, tag the commit, and push.
+1. Make sure `test` passes: **OntoBoard > Build and release > Build...**,
+   target `test`.
+2. **OntoBoard > Build and release > Release...**, *Semantic version*, the next
+   version. It stamps the version IRI
+   `https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/<version>`, with `owl:versionInfo` and
+   `owl:priorVersion`, and writes `releases/<version>/pizzabfo.owl` and the
+   published `pizzabfo.owl`.
+3. Publish the release under its IRIs: copy `pizzabfo.owl` to `docs/pizzabfo.owl`, and
+   `releases/<version>/pizzabfo.owl` to `docs/pizzabfo/<version>` - with no extension,
+   as in the version IRI. This site serves them at those addresses.
+4. **OntoBoard > Build and release > Documentation...**, *Write it to*
+   `docs/ontology`, *Include the WebVowl diagram* ticked. It documents the
+   release you just made, and its changelog compares that release with the one
+   before it - which has to be online already, as step 3 of the last release
+   put it.
+5. Commit all of it, tag the commit `v<version>`, and push. This site is
+   republished from `main`.
+
+The knowledge graph in `kg/` has releases of its own, under `kg/releases/`.
 
 A version IRI cannot be taken back once somebody has imported it, so the
 release step refuses to overwrite a release that already exists.
