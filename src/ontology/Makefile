@@ -39,7 +39,8 @@ report:
 	  --output report.tsv --format tsv
 
 sparql_test:
-	$(ROBOT) verify --input $(ONT)-edit.owl --queries ../sparql/*.rq --output-dir .
+	$(ROBOT) merge --input $(ONT)-edit.owl \
+	  verify --queries ../sparql/*.rq --output-dir .
 
 validate_profile:
 	$(ROBOT) merge -i $(ONT)-edit.owl convert -f ofn -o tmp_validate.ofn
