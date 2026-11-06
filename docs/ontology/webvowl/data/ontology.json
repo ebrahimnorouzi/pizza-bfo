@@ -15,16 +15,16 @@
       "en" : "Pizza BFO Ontology"
     },
     "other" : {
-      "priorVersion" : [ {
-        "identifier" : "priorVersion",
-        "language" : "undefined",
-        "value" : "https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.4.0",
-        "type" : "iri"
-      } ],
       "license" : [ {
         "identifier" : "license",
         "language" : "undefined",
         "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "priorVersion" : [ {
+        "identifier" : "priorVersion",
+        "language" : "undefined",
+        "value" : "https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/0.4.0",
         "type" : "iri"
       } ],
       "versionInfo" : [ {
@@ -109,10 +109,10 @@
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "156",
+    "id" : "157",
     "type" : "owl:unionOf"
   }, {
-    "id" : "155",
+    "id" : "156",
     "type" : "owl:unionOf"
   }, {
     "id" : "122",
@@ -145,10 +145,10 @@
     "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "108",
+    "id" : "135",
     "type" : "owl:Class"
   }, {
-    "id" : "135",
+    "id" : "108",
     "type" : "owl:Class"
   }, {
     "id" : "29",
@@ -169,7 +169,7 @@
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "206",
+    "id" : "205",
     "type" : "owl:Class"
   }, {
     "id" : "14",
@@ -184,7 +184,7 @@
     "id" : "213",
     "type" : "owl:Class"
   }, {
-    "id" : "158",
+    "id" : "165",
     "type" : "owl:Class"
   }, {
     "id" : "199",
@@ -202,7 +202,7 @@
     "id" : "75",
     "type" : "owl:Class"
   }, {
-    "id" : "160",
+    "id" : "148",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -217,16 +217,16 @@
     "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "202",
+    "id" : "207",
     "type" : "owl:Class"
   }, {
     "id" : "139",
     "type" : "owl:Class"
   }, {
-    "id" : "152",
+    "id" : "153",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "151",
+    "id" : "152",
     "type" : "owl:Thing"
   }, {
     "id" : "66",
@@ -235,7 +235,7 @@
     "id" : "129",
     "type" : "owl:Class"
   }, {
-    "id" : "153",
+    "id" : "154",
     "type" : "owl:Thing"
   }, {
     "id" : "146",
@@ -253,7 +253,7 @@
     "id" : "78",
     "type" : "owl:unionOf"
   }, {
-    "id" : "205",
+    "id" : "204",
     "type" : "owl:unionOf"
   }, {
     "id" : "116",
@@ -412,21 +412,21 @@
         "value" : "An entity that has temporal parts and that happens, unfolds or develops through time.",
         "type" : "label"
       } ],
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "occurrent",
-        "type" : "label"
-      } ],
       "IAO_0000116" : [ {
         "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "BFO 2 Reference: s-dependence obtains between every process and its participants in the sense that, as a matter of necessity, this process could not have existed unless these or those participants existed also. A process may have a succession of participants at different phases of its unfolding. Thus there may be different players on the field at different times during the course of a football game; but the process which is the entire game s-depends_on all of these players nonetheless. Some temporal parts of this process will s-depend_on on only some of the players.",
+        "value" : "BFO 2 Reference: every occurrent that is not a temporal or spatiotemporal region is s-dependent on some independent continuant that is not a spatial region",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "BFO 2 Reference: every occurrent that is not a temporal or spatiotemporal region is s-dependent on some independent continuant that is not a spatial region",
+        "value" : "BFO 2 Reference: s-dependence obtains between every process and its participants in the sense that, as a matter of necessity, this process could not have existed unless these or those participants existed also. A process may have a succession of participants at different phases of its unfolding. Thus there may be different players on the field at different times during the course of a football game; but the process which is the entire game s-depends_on all of these players nonetheless. Some temporal parts of this process will s-depend_on on only some of the players.",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "occurrent",
         "type" : "label"
       } ],
       "definition" : [ {
@@ -464,7 +464,7 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "Verdi’s Requiem",
+        "value" : "your body mass index",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -474,24 +474,24 @@
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "your body mass index",
+        "value" : "the Second World War",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the Second World War",
-        "type" : "label"
-      } ],
-      "IAO_0000116" : [ {
-        "identifier" : "IAO_0000116",
-        "language" : "en",
-        "value" : "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81",
+        "value" : "Verdi’s Requiem",
         "type" : "label"
       } ],
       "prefLabel" : [ {
         "identifier" : "prefLabel",
         "language" : "en",
         "value" : "entity",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81",
         "type" : "label"
       } ],
       "definition" : [ {
@@ -565,7 +565,32 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
+        "value" : "an atom",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a chair",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a molecule",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
         "value" : "a heart",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the bottom right portion of a human torso",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a spatial region",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -580,37 +605,12 @@
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "an atom",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "a molecule",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "a chair",
+        "value" : "the interior of your mouth",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
         "value" : "an organism",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "a spatial region",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the bottom right portion of a human torso",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the interior of your mouth",
         "type" : "label"
       } ],
       "IAO_0000115" : [ {
@@ -702,7 +702,7 @@
     },
     "subClasses" : [ "73", "74", "75", "76" ],
     "intersection" : [ "51" ],
-    "attributes" : [ "intersection", "external" ],
+    "attributes" : [ "external", "intersection" ],
     "id" : "50",
     "superClasses" : [ "51" ]
   }, {
@@ -761,7 +761,7 @@
     },
     "subClasses" : [ "81" ],
     "intersection" : [ "62" ],
-    "attributes" : [ "intersection", "external" ],
+    "attributes" : [ "external", "intersection" ],
     "id" : "71",
     "superClasses" : [ "62" ]
   }, {
@@ -905,12 +905,12 @@
       "IAO_0000116" : [ {
         "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "MC, 2009-09-14 (following IAO call 2009-09-01): textual entities live at the FRBR (http://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records) manifestation level. Everything is significant: line break, pdf and html versions of same document are different textual entities.",
+        "value" : "AR, (IAO call 2009-09-01): a document as a whole is not typically a textual entity, because it has pictures in it - rather there are parts of it that are textual entities. Examples: The title, paragraph 2 sentence 7, etc.",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "AR, (IAO call 2009-09-01): a document as a whole is not typically a textual entity, because it has pictures in it - rather there are parts of it that are textual entities. Examples: The title, paragraph 2 sentence 7, etc.",
+        "value" : "MC, 2009-09-14 (following IAO call 2009-09-01): textual entities live at the FRBR (http://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records) manifestation level. Everything is significant: line break, pdf and html versions of same document are different textual entities.",
         "type" : "label"
       } ]
     },
@@ -1010,12 +1010,12 @@
       }, {
         "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered.",
+        "value" : "Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation.",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "Alan, IAO call 20101124: potentially the CRID denotes the instance it was associated with during creation.",
+        "value" : "Note, IAO call 20101124: URIs are not always CRID, as not centrally registered. We acknowledge that CRID is a subset of a larger identifier class, but this subset fulfills our current needs. OBI PURLs are CRID as they are registered with OCLC. UPCs (Universal Product Codes from AC Nielsen)are not CRID as they are not centrally registered.",
         "type" : "label"
       } ]
     },
@@ -1030,13 +1030,13 @@
   }, {
     "instances" : 0,
     "union" : [ "70", "14" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "156"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "157"
   }, {
     "instances" : 0,
     "union" : [ "64", "66" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "155"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "156"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/IAO_0000444",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -1072,7 +1072,7 @@
       "IRI-based" : "NFDI_0001041",
       "en" : "postal code"
     },
-    "subClasses" : [ "206" ],
+    "subClasses" : [ "205" ],
     "attributes" : [ "external" ],
     "id" : "9",
     "superClasses" : [ "6" ]
@@ -1093,7 +1093,7 @@
       "en" : "publisher role"
     },
     "intersection" : [ "50" ],
-    "attributes" : [ "intersection", "external" ],
+    "attributes" : [ "external", "intersection" ],
     "id" : "73",
     "superClasses" : [ "50" ]
   }, {
@@ -1110,7 +1110,12 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the disposition of this fish to decay",
+        "value" : "of one-sided specifically dependent continuants: the mass of this tomato",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the shape of this hole.",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -1120,32 +1125,12 @@
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the smell of this portion of mozzarella",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the function of this heart: to pump blood",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the pink color of a medium rare piece of grilled filet mignon at its center",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "of one-sided specifically dependent continuants: the mass of this tomato",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
         "value" : "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the disposition of this fish to decay",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -1160,7 +1145,22 @@
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the shape of this hole.",
+        "value" : "the pink color of a medium rare piece of grilled filet mignon at its center",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the function of this heart: to pump blood",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the smell of this portion of mozzarella",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.",
         "type" : "label"
       } ],
       "IAO_0000115" : [ {
@@ -1184,12 +1184,12 @@
       "example" : [ {
         "identifier" : "example",
         "language" : "en",
-        "value" : "(with multiple bearers) John's love for Mary; the ownership relation between John and this statue; the relation of authority between John and his subordinates",
+        "value" : "(with one bearer) The mass of this tomato; the pink colour of a medium rare piece of grilled filet mignon at its centre; the smell of this portion of mozzarella; the disposition of this fish to decay; the role of being a doctor; the function of this heart to pump blood; the shape of this hole",
         "type" : "label"
       }, {
         "identifier" : "example",
         "language" : "en",
-        "value" : "(with one bearer) The mass of this tomato; the pink colour of a medium rare piece of grilled filet mignon at its centre; the smell of this portion of mozzarella; the disposition of this fish to decay; the role of being a doctor; the function of this heart to pump blood; the shape of this hole",
+        "value" : "(with multiple bearers) John's love for Mary; the ownership relation between John and this statue; the relation of authority between John and his subordinates",
         "type" : "label"
       } ]
     },
@@ -1293,7 +1293,7 @@
       "IRI-based" : "PIZZABFO_0001008",
       "en" : "meat topping"
     },
-    "subClasses" : [ "87", "202" ],
+    "subClasses" : [ "87", "207" ],
     "attributes" : [ "external" ],
     "id" : "46",
     "superClasses" : [ "2" ]
@@ -1350,10 +1350,29 @@
       "IRI-based" : "PIZZABFO_0001007",
       "en" : "cheese topping"
     },
-    "subClasses" : [ "160", "210", "218" ],
+    "subClasses" : [ "148", "210", "218" ],
     "attributes" : [ "external" ],
     "id" : "48",
     "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000145",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b is a relational quality =Def b is a quality & there exists c and d such that c and d are not identical & b specifically depends on c & b specifically depends on d",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000145",
+      "en" : "relational quality"
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "133" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000024",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -1393,25 +1412,6 @@
     "id" : "108",
     "superClasses" : [ "70" ]
   }, {
-    "iri" : "http://purl.obolibrary.org/obo/BFO_0000145",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "instances" : 0,
-    "annotations" : {
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "b is a relational quality =Def b is a quality & there exists c and d such that c and d are not identical & b specifically depends on c & b specifically depends on d",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "BFO_0000145",
-      "en" : "relational quality"
-    },
-    "attributes" : [ "external" ],
-    "id" : "135",
-    "superClasses" : [ "133" ]
-  }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001009",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
     "instances" : 0,
@@ -1427,7 +1427,7 @@
       "IRI-based" : "PIZZABFO_0001009",
       "en" : "vegetable topping"
     },
-    "subClasses" : [ "213", "158", "53" ],
+    "subClasses" : [ "213", "165", "53" ],
     "attributes" : [ "external" ],
     "id" : "29",
     "superClasses" : [ "2" ]
@@ -1445,17 +1445,7 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
         "value" : "the role of subject in a clinical trial",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the role of a stone in marking a property boundary",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -1465,12 +1455,22 @@
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the student role",
+        "value" : "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the role of a stone in marking a property boundary",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
         "value" : "the role of a building in serving as a military target",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the student role",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -1484,28 +1484,28 @@
         "value" : "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.",
         "type" : "label"
       } ],
-      "IAO_0000116" : [ {
-        "identifier" : "IAO_0000116",
-        "language" : "en",
-        "value" : "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives.",
-        "type" : "label"
-      } ],
       "prefLabel" : [ {
         "identifier" : "prefLabel",
         "language" : "en",
         "value" : "role",
         "type" : "label"
       } ],
-      "definition" : [ {
-        "identifier" : "definition",
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "(Elucidation) A role b is a realizable entity such that b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be & b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed",
+        "value" : "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives.",
         "type" : "label"
       } ],
       "altLabel" : [ {
         "identifier" : "altLabel",
         "language" : "en",
         "value" : "externally-grounded realizable entity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) A role b is a realizable entity such that b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be & b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed",
         "type" : "label"
       } ],
       "example" : [ {
@@ -1648,7 +1648,7 @@
       "en" : "zone improvement plan code"
     },
     "attributes" : [ "external" ],
-    "id" : "206",
+    "id" : "205",
     "superClasses" : [ "9" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000029",
@@ -1734,12 +1734,12 @@
       "scopeNote" : [ {
         "identifier" : "scopeNote",
         "language" : "undefined",
-        "value" : "'Exactly' means that there are no parts of the object aggregate other than its member parts.",
+        "value" : "The unit can, at certain times, consist of exactly one object, for example, when a wolf litter loses all but one of its pups, but it must at some time have a plurality of member parts.",
         "type" : "label"
       }, {
         "identifier" : "scopeNote",
         "language" : "undefined",
-        "value" : "The unit can, at certain times, consist of exactly one object, for example, when a wolf litter loses all but one of its pups, but it must at some time have a plurality of member parts.",
+        "value" : "'Exactly' means that there are no parts of the object aggregate other than its member parts.",
         "type" : "label"
       } ],
       "example" : [ {
@@ -1792,7 +1792,7 @@
       "en" : "tomato topping"
     },
     "attributes" : [ "external" ],
-    "id" : "158",
+    "id" : "165",
     "superClasses" : [ "29" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
@@ -1862,16 +1862,16 @@
         "value" : "(Elucidation) A spatiotemporal region is an occurrent that is an occurrent part of spacetime",
         "type" : "label"
       } ],
-      "scopeNote" : [ {
-        "identifier" : "scopeNote",
-        "language" : "en",
-        "value" : "'Spacetime' here refers to the maximal instance of the universal spatiotemporal region.",
-        "type" : "label"
-      } ],
       "example" : [ {
         "identifier" : "example",
         "language" : "en",
         "value" : "The spatiotemporal region occupied by the development of a cancer tumour; the spatiotemporal region occupied by an orbiting satellite",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "'Spacetime' here refers to the maximal instance of the universal spatiotemporal region.",
         "type" : "label"
       } ]
     },
@@ -1918,7 +1918,7 @@
       "en" : "mozzarella topping"
     },
     "attributes" : [ "external" ],
-    "id" : "160",
+    "id" : "148",
     "superClasses" : [ "48" ]
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001010",
@@ -2014,7 +2014,7 @@
       "en" : "ham topping"
     },
     "attributes" : [ "external" ],
-    "id" : "202",
+    "id" : "207",
     "superClasses" : [ "46" ]
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000017",
@@ -2030,17 +2030,12 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the disposition of your blood to coagulate",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
         "value" : "the disposition of this piece of metal to conduct electricity.",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the role of being a doctor",
+        "value" : "the function of your reproductive organs",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -2050,7 +2045,12 @@
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the function of your reproductive organs",
+        "value" : "the role of being a doctor",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "the disposition of your blood to coagulate",
         "type" : "label"
       } ],
       "IAO_0000115" : [ {
@@ -2088,7 +2088,7 @@
     "superClasses" : [ "60" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "152",
+    "id" : "153",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -2096,7 +2096,7 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "151",
+    "id" : "152",
     "label" : {
       "undefined" : "Thing"
     }
@@ -2119,12 +2119,12 @@
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "a process of meiosis",
+        "value" : "the flight of a bird",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "the course of a disease",
+        "value" : "your process of aging.",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -2134,17 +2134,17 @@
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
+        "value" : "the course of a disease",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "a process of meiosis",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
         "value" : "a process of cell-division, \\ a beating of the heart",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the flight of a bird",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "your process of aging.",
         "type" : "label"
       } ],
       "IAO_0000115" : [ {
@@ -2153,28 +2153,28 @@
         "value" : "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])",
         "type" : "label"
       } ],
-      "IAO_0000116" : [ {
-        "identifier" : "IAO_0000116",
-        "language" : "en",
-        "value" : "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)",
-        "type" : "label"
-      } ],
       "prefLabel" : [ {
         "identifier" : "prefLabel",
         "language" : "en",
         "value" : "process",
         "type" : "label"
       } ],
-      "definition" : [ {
-        "identifier" : "definition",
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "(Elucidation) p is a process means p is an occurrent that has some temporal proper part and for some time t, p has some material entity as participant",
+        "value" : "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)",
         "type" : "label"
       } ],
       "altLabel" : [ {
         "identifier" : "altLabel",
         "language" : "en",
         "value" : "event",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) p is a process means p is an occurrent that has some temporal proper part and for some time t, p has some material entity as participant",
         "type" : "label"
       } ],
       "example" : [ {
@@ -2209,16 +2209,16 @@
         "value" : "disposition",
         "type" : "label"
       } ],
-      "altLabel" : [ {
-        "identifier" : "altLabel",
-        "language" : "en",
-        "value" : "internally-grounded realizable entity",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "(Elucidation) A disposition b is a realizable entity such that if b ceases to exist then its bearer is physically changed & b's realization occurs when and because this bearer is in some special physical circumstances & this realization occurs in virtue of the bearer's physical make-up",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "internally-grounded realizable entity",
         "type" : "label"
       } ],
       "example" : [ {
@@ -2239,14 +2239,14 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "153",
+    "id" : "154",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "instances" : 0,
     "union" : [ "64", "66" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "146"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/OBI_0000245",
@@ -2283,7 +2283,7 @@
   }, {
     "instances" : 0,
     "union" : [ "70", "14" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "145"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000019",
@@ -2326,13 +2326,13 @@
   }, {
     "instances" : 0,
     "union" : [ "60", "66" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "78"
   }, {
     "instances" : 0,
     "union" : [ "64", "66" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "205"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "204"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
@@ -2371,7 +2371,7 @@
     },
     "subClasses" : [ "89", "95" ],
     "intersection" : [ "38" ],
-    "attributes" : [ "intersection", "external" ],
+    "attributes" : [ "external", "intersection" ],
     "id" : "37",
     "superClasses" : [ "38" ]
   }, {
@@ -2545,7 +2545,7 @@
     },
     "subClasses" : [ "89", "105", "91", "93", "95" ],
     "intersection" : [ "38" ],
-    "attributes" : [ "intersection", "external" ],
+    "attributes" : [ "external", "intersection" ],
     "id" : "44",
     "superClasses" : [ "38" ]
   }, {
@@ -2581,17 +2581,17 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
+        "value" : "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule.",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
         "value" : "the pdf file on your laptop, the pdf file that is a copy thereof on my laptop",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
         "value" : "The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity.",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule.",
         "type" : "label"
       } ],
       "IAO_0000115" : [ {
@@ -2656,16 +2656,16 @@
         "value" : "(Elucidation) An object is a material entity which manifests causal unity & is of a type instances of which are maximal relative to the sort of causal unity manifested",
         "type" : "label"
       } ],
-      "example" : [ {
-        "identifier" : "example",
-        "language" : "en",
-        "value" : "An organism; a fish tank; a planet; a laptop; a valve; a block of marble; an ice cube",
-        "type" : "label"
-      } ],
       "scopeNote" : [ {
         "identifier" : "scopeNote",
         "language" : "en",
         "value" : "A description of three primary sorts of causal unity is provided in Basic Formal Ontology 2.0. Specification and User Guide",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "An organism; a fish tank; a planet; a laptop; a valve; a block of marble; an ice cube",
         "type" : "label"
       } ]
     },
@@ -2751,7 +2751,7 @@
     },
     "subClasses" : [ "53", "87" ],
     "intersection" : [ "2" ],
-    "attributes" : [ "intersection", "external" ],
+    "attributes" : [ "external", "intersection" ],
     "id" : "31",
     "superClasses" : [ "2" ]
   }, {
@@ -2810,7 +2810,7 @@
     },
     "subClasses" : [ "89" ],
     "intersection" : [ "38" ],
-    "attributes" : [ "intersection", "external" ],
+    "attributes" : [ "external", "intersection" ],
     "id" : "42",
     "superClasses" : [ "38" ]
   }, {
@@ -3107,7 +3107,7 @@
     "id" : "141",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "143",
+    "id" : "142",
     "type" : "owl:objectProperty"
   }, {
     "id" : "144",
@@ -3116,31 +3116,31 @@
     "id" : "147",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "149",
+    "id" : "150",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "150",
+    "id" : "151",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "142",
+    "id" : "143",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "154",
+    "id" : "155",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "157",
+    "id" : "158",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "159",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "161",
+    "id" : "160",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "163",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "164",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "165",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "166",
@@ -3161,13 +3161,13 @@
     "id" : "174",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "148",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "176",
+    "id" : "149",
     "type" : "owl:objectProperty"
   }, {
     "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
     "type" : "owl:objectProperty"
   }, {
     "id" : "178",
@@ -3233,10 +3233,10 @@
     "id" : "198",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "162",
+    "id" : "161",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "163",
+    "id" : "162",
     "type" : "owl:objectProperty"
   }, {
     "id" : "201",
@@ -3245,13 +3245,13 @@
     "id" : "200",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "203",
+    "id" : "202",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "204",
+    "id" : "203",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "207",
+    "id" : "206",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "208",
@@ -3348,10 +3348,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "240",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "241",
-    "type" : "owl:disjointWith"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "242",
     "type" : "owl:disjointWith"
@@ -3459,7 +3459,7 @@
       "en" : "has first instant"
     },
     "domain" : "16",
-    "attributes" : [ "functional", "object", "external" ],
+    "attributes" : [ "object", "external", "functional" ],
     "id" : "15"
   }, {
     "range" : "19",
@@ -3498,7 +3498,7 @@
       "en" : "has last instant"
     },
     "domain" : "16",
-    "attributes" : [ "functional", "object", "external" ],
+    "attributes" : [ "object", "external", "functional" ],
     "id" : "27"
   }, {
     "range" : "2",
@@ -3592,7 +3592,7 @@
       "en" : "has temporal part"
     },
     "domain" : "63",
-    "attributes" : [ "object", "transitive", "external" ],
+    "attributes" : [ "object", "external", "transitive" ],
     "id" : "67"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/RO_0000059",
@@ -3602,12 +3602,12 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The quality (a specifically dependent continuant) concretizes the journal article (a generically dependent continuant), and both depend on that copy of the printed journal (an independent continuant).",
+        "value" : "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process).",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "An investigator reads a protocol and forms a plan to carry out an assay. The plan is a realizable entity (a specifically dependent continuant) that concretizes the protocol (a generically dependent continuant), and both depend on the investigator (an independent continuant). The plan is then realized by the assay (a process).",
+        "value" : "A journal article is an information artifact that inheres in some number of printed journals. For each copy of the printed journal there is some quality that carries the journal article, such as a pattern of ink. The quality (a specifically dependent continuant) concretizes the journal article (a generically dependent continuant), and both depend on that copy of the printed journal (an independent continuant).",
         "type" : "label"
       } ],
       "IAO_0000115" : [ {
@@ -3625,6 +3625,47 @@
     "attributes" : [ "object", "external" ],
     "id" : "77"
   }, {
+    "iri" : "http://purl.obolibrary.org/obo/RO_0001025",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "62",
+    "annotations" : {
+      "IAO_0000112" : [ {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "this rat is located in this cage",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000112",
+        "language" : "en",
+        "value" : "my brain is located in my head",
+        "type" : "label"
+      } ],
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "a relation between two independent continuants, the target and the location, in which the target is entirely within the location",
+        "type" : "label"
+      } ],
+      "IAO_0000116" : [ {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus",
+        "type" : "label"
+      }, {
+        "identifier" : "IAO_0000116",
+        "language" : "en",
+        "value" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RO_0001025",
+      "en" : "located in"
+    },
+    "domain" : "62",
+    "attributes" : [ "object", "external", "transitive" ],
+    "id" : "79"
+  }, {
     "iri" : "http://purl.obolibrary.org/obo/RO_0000057",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "58",
@@ -3632,12 +3673,12 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "this blood coagulation has participant this blood clot",
+        "value" : "this investigation has participant this investigator",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "this investigation has participant this investigator",
+        "value" : "this blood coagulation has participant this blood clot",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -3664,47 +3705,6 @@
     },
     "domain" : "63",
     "attributes" : [ "object", "external" ],
-    "id" : "79"
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/RO_0001025",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "range" : "62",
-    "annotations" : {
-      "IAO_0000112" : [ {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "my brain is located in my head",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000112",
-        "language" : "en",
-        "value" : "this rat is located in this cage",
-        "type" : "label"
-      } ],
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "en",
-        "value" : "a relation between two independent continuants, the target and the location, in which the target is entirely within the location",
-        "type" : "label"
-      } ],
-      "IAO_0000116" : [ {
-        "identifier" : "IAO_0000116",
-        "language" : "en",
-        "value" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/",
-        "type" : "label"
-      }, {
-        "identifier" : "IAO_0000116",
-        "language" : "en",
-        "value" : "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "RO_0001025",
-      "en" : "located in"
-    },
-    "domain" : "62",
-    "attributes" : [ "object", "transitive", "external" ],
     "id" : "80"
   }, {
     "range" : "84",
@@ -3940,26 +3940,6 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "140"
   }, {
-    "iri" : "http://purl.obolibrary.org/obo/IAO_0000235",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "range" : "7",
-    "annotations" : {
-      "IAO_0000115" : [ {
-        "identifier" : "IAO_0000115",
-        "language" : "en",
-        "value" : "inverse of the relation 'denotes'",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "IAO_0000235",
-      "en" : "denoted by"
-    },
-    "domain" : "59",
-    "subproperty" : [ "142" ],
-    "attributes" : [ "object", "external" ],
-    "id" : "141"
-  }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000185",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "124",
@@ -3977,7 +3957,27 @@
     },
     "domain" : "70",
     "attributes" : [ "object", "external" ],
-    "id" : "143"
+    "id" : "141"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/IAO_0000235",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "7",
+    "annotations" : {
+      "IAO_0000115" : [ {
+        "identifier" : "IAO_0000115",
+        "language" : "en",
+        "value" : "inverse of the relation 'denotes'",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IAO_0000235",
+      "en" : "denoted by"
+    },
+    "domain" : "59",
+    "subproperty" : [ "143" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "142"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000183",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -4018,7 +4018,7 @@
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "87",
+    "range" : "148",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -4031,13 +4031,13 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "89",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "147"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000184",
-    "inverse" : "143",
+    "inverse" : "141",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "70",
     "annotations" : {
@@ -4053,12 +4053,12 @@
       "en" : "history of"
     },
     "domain" : "124",
-    "attributes" : [ "functional", "inverse functional", "object", "external" ],
-    "id" : "149"
+    "attributes" : [ "object", "inverse functional", "external", "functional" ],
+    "id" : "150"
   }, {
     "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001007",
     "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
-    "range" : "152",
+    "range" : "153",
     "annotations" : {
       "definition" : [ {
         "identifier" : "definition",
@@ -4071,9 +4071,9 @@
       "IRI-based" : "NFDI_0001007",
       "en" : "has value"
     },
-    "domain" : "151",
-    "attributes" : [ "datatype", "external" ],
-    "id" : "150"
+    "domain" : "152",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "151"
   }, {
     "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0001006",
     "baseIri" : "https://nfdi.fiz-karlsruhe.de/ontology",
@@ -4090,15 +4090,15 @@
       "IRI-based" : "NFDI_0001006",
       "en" : "has external identifier"
     },
-    "superproperty" : [ "141" ],
-    "domain" : "153",
+    "superproperty" : [ "142" ],
+    "domain" : "154",
     "attributes" : [ "object", "external" ],
-    "id" : "142"
+    "id" : "143"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000066",
     "inverse" : "144",
     "baseIri" : "http://purl.obolibrary.org/obo",
-    "range" : "156",
+    "range" : "157",
     "annotations" : {
       "identifier" : [ {
         "identifier" : "identifier",
@@ -4129,13 +4129,13 @@
       "IRI-based" : "BFO_0000066",
       "en" : "occurs in"
     },
-    "domain" : "155",
+    "domain" : "156",
     "attributes" : [ "object", "external" ],
-    "id" : "154"
+    "id" : "155"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "158",
+    "range" : "87",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -4148,14 +4148,14 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "89",
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "157"
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "158"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "160",
+    "range" : "148",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -4168,13 +4168,13 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "105",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "159"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000196",
-    "inverse" : "162",
+    "inverse" : "161",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "118",
     "annotations" : {
@@ -4207,10 +4207,10 @@
       "IRI-based" : "BFO_0000196",
       "en" : "bearer of"
     },
-    "superproperty" : [ "163" ],
+    "superproperty" : [ "162" ],
     "domain" : "87",
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "161"
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "160"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001003",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
@@ -4227,14 +4227,14 @@
       "IRI-based" : "PIZZABFO_0001003",
       "en" : "has base"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "38",
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "164"
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "163"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "158",
+    "range" : "165",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -4247,13 +4247,13 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "105",
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "165"
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "164"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000196",
-    "inverse" : "162",
+    "inverse" : "161",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "118",
     "annotations" : {
@@ -4286,9 +4286,9 @@
       "IRI-based" : "BFO_0000196",
       "en" : "bearer of"
     },
-    "superproperty" : [ "163" ],
+    "superproperty" : [ "162" ],
     "domain" : "53",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "166"
   }, {
     "range" : "69",
@@ -4297,7 +4297,7 @@
     "id" : "167"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
-    "inverse" : "148",
+    "inverse" : "149",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "70",
     "annotations" : {
@@ -4331,7 +4331,7 @@
       "en" : "continuant part of"
     },
     "domain" : "70",
-    "attributes" : [ "allValues", "object", "external" ],
+    "attributes" : [ "object", "external", "allValues" ],
     "id" : "168"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000121",
@@ -4350,7 +4350,7 @@
       "en" : "has temporal part"
     },
     "domain" : "19",
-    "attributes" : [ "allValues", "object", "transitive", "external" ],
+    "attributes" : [ "object", "external", "allValues", "transitive" ],
     "id" : "169"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000178",
@@ -4382,7 +4382,7 @@
     },
     "domain" : "171",
     "subproperty" : [ "172", "173" ],
-    "attributes" : [ "allValues", "object", "external" ],
+    "attributes" : [ "object", "external", "allValues" ],
     "id" : "170"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000054",
@@ -4402,16 +4402,16 @@
         "value" : "has realization",
         "type" : "label"
       } ],
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "b has realization c =Def c realizes b",
-        "type" : "label"
-      } ],
       "altLabel" : [ {
         "identifier" : "altLabel",
         "language" : "en",
         "value" : "realized in",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b has realization c =Def c realizes b",
         "type" : "label"
       } ],
       "example" : [ {
@@ -4459,45 +4459,7 @@
     "domain" : "58",
     "subproperty" : [ "172", "173" ],
     "attributes" : [ "object", "external" ],
-    "id" : "148"
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
-    "inverse" : "148",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "range" : "58",
-    "annotations" : {
-      "identifier" : [ {
-        "identifier" : "identifier",
-        "language" : "undefined",
-        "value" : "221-BFO",
-        "type" : "label"
-      } ],
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "continuant part of at some time",
-        "type" : "label"
-      } ],
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "b continuant part of c =Def b and c are continuants & there is some time t such that b and c exist at t & b continuant part of c at t",
-        "type" : "label"
-      } ],
-      "example" : [ {
-        "identifier" : "example",
-        "language" : "en",
-        "value" : "Milk teeth continuant part of human; surgically removed tumour continuant part of organism",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "BFO_0000176",
-      "en" : "continuant part of"
-    },
-    "domain" : "58",
-    "attributes" : [ "object", "external" ],
-    "id" : "176"
+    "id" : "149"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000055",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -4536,6 +4498,44 @@
     "attributes" : [ "object", "external" ],
     "id" : "175"
   }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
+    "inverse" : "149",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "58",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "221-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "continuant part of at some time",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "b continuant part of c =Def b and c are continuants & there is some time t such that b and c exist at t & b continuant part of c at t",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Milk teeth continuant part of human; surgically removed tumour continuant part of organism",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000176",
+      "en" : "continuant part of"
+    },
+    "domain" : "58",
+    "attributes" : [ "object", "external" ],
+    "id" : "176"
+  }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000121",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "64",
@@ -4552,7 +4552,7 @@
       "en" : "has temporal part"
     },
     "domain" : "64",
-    "attributes" : [ "allValues", "object", "transitive", "external" ],
+    "attributes" : [ "object", "external", "allValues", "transitive" ],
     "id" : "178"
   }, {
     "range" : "133",
@@ -4628,7 +4628,7 @@
       "en" : "has role"
     },
     "domain" : "71",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "188"
   }, {
     "iri" : "https://nfdi.fiz-karlsruhe.de/ontology/NFDI_0000182",
@@ -4649,6 +4649,43 @@
     "domain" : "81",
     "attributes" : [ "object", "external" ],
     "id" : "189"
+  }, {
+    "iri" : "http://purl.obolibrary.org/obo/BFO_0000055",
+    "baseIri" : "http://purl.obolibrary.org/obo",
+    "range" : "57",
+    "annotations" : {
+      "identifier" : [ {
+        "identifier" : "identifier",
+        "language" : "undefined",
+        "value" : "059-BFO",
+        "type" : "label"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "realizes",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "(Elucidation) realizes is a relation between a process b and realizable entity c such that c inheres in some d & for all t, if b has participant d then c exists & the type instantiated by b is correlated with the type instantiated by c",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A balding process realizes a disposition to go bald; a studying process realizes a student role; a process of pumping blood realizes the pumping function of a heart",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BFO_0000055",
+      "en" : "realizes"
+    },
+    "domain" : "126",
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "190"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000066",
     "inverse" : "144",
@@ -4685,8 +4722,8 @@
       "en" : "occurs in"
     },
     "domain" : "126",
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "190"
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "191"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/RO_0000057",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -4695,12 +4732,12 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "this blood coagulation has participant this blood clot",
+        "value" : "this investigation has participant this investigator",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "this investigation has participant this investigator",
+        "value" : "this blood coagulation has participant this blood clot",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
@@ -4726,8 +4763,8 @@
       "en" : "has participant"
     },
     "domain" : "126",
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "191"
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "192"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000199",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -4745,44 +4782,7 @@
       "en" : "occupies temporal region"
     },
     "domain" : "126",
-    "attributes" : [ "functional", "object", "someValues", "external" ],
-    "id" : "192"
-  }, {
-    "iri" : "http://purl.obolibrary.org/obo/BFO_0000055",
-    "baseIri" : "http://purl.obolibrary.org/obo",
-    "range" : "57",
-    "annotations" : {
-      "identifier" : [ {
-        "identifier" : "identifier",
-        "language" : "undefined",
-        "value" : "059-BFO",
-        "type" : "label"
-      } ],
-      "prefLabel" : [ {
-        "identifier" : "prefLabel",
-        "language" : "en",
-        "value" : "realizes",
-        "type" : "label"
-      } ],
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "(Elucidation) realizes is a relation between a process b and realizable entity c such that c inheres in some d & for all t, if b has participant d then c exists & the type instantiated by b is correlated with the type instantiated by c",
-        "type" : "label"
-      } ],
-      "example" : [ {
-        "identifier" : "example",
-        "language" : "en",
-        "value" : "A balding process realizes a disposition to go bald; a studying process realizes a student role; a process of pumping blood realizes the pumping function of a heart",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "BFO_0000055",
-      "en" : "realizes"
-    },
-    "domain" : "126",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues", "functional" ],
     "id" : "193"
   }, {
     "range" : "118",
@@ -4792,7 +4792,7 @@
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "158",
+    "range" : "137",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -4805,9 +4805,9 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "95",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "195"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/RO_0000081",
@@ -4839,7 +4839,7 @@
       "en" : "role of"
     },
     "domain" : "57",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "196"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/RO_0001025",
@@ -4849,12 +4849,12 @@
       "IAO_0000112" : [ {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "my brain is located in my head",
+        "value" : "this rat is located in this cage",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000112",
         "language" : "en",
-        "value" : "this rat is located in this cage",
+        "value" : "my brain is located in my head",
         "type" : "label"
       } ],
       "IAO_0000115" : [ {
@@ -4866,12 +4866,12 @@
       "IAO_0000116" : [ {
         "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/",
+        "value" : "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus",
         "type" : "label"
       }, {
         "identifier" : "IAO_0000116",
         "language" : "en",
-        "value" : "Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus",
+        "value" : "Most location relations will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/",
         "type" : "label"
       } ]
     },
@@ -4880,11 +4880,11 @@
       "en" : "located in"
     },
     "domain" : "131",
-    "attributes" : [ "object", "transitive", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues", "transitive" ],
     "id" : "197"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000196",
-    "inverse" : "162",
+    "inverse" : "161",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "60",
     "annotations" : {
@@ -4917,7 +4917,7 @@
       "IRI-based" : "BFO_0000196",
       "en" : "bearer of"
     },
-    "superproperty" : [ "163" ],
+    "superproperty" : [ "162" ],
     "domain" : "199",
     "attributes" : [ "object", "external" ],
     "id" : "198"
@@ -4958,7 +4958,7 @@
     "superproperty" : [ "200" ],
     "domain" : "60",
     "attributes" : [ "object", "external" ],
-    "id" : "162"
+    "id" : "161"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000194",
     "inverse" : "200",
@@ -4977,16 +4977,16 @@
         "value" : "specifically depended on by",
         "type" : "label"
       } ],
-      "altLabel" : [ {
-        "identifier" : "altLabel",
-        "language" : "en",
-        "value" : "s-depended on by",
-        "type" : "label"
-      } ],
       "definition" : [ {
         "identifier" : "definition",
         "language" : "en",
         "value" : "b specifically depended on by c =Def c specifically depends on b",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "s-depended on by",
         "type" : "label"
       } ],
       "example" : [ {
@@ -5003,11 +5003,11 @@
     "domain" : "199",
     "subproperty" : [ "198" ],
     "attributes" : [ "object", "external" ],
-    "id" : "163"
+    "id" : "162"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "202",
+    "range" : "165",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -5020,9 +5020,9 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "95",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "201"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000195",
@@ -5053,16 +5053,16 @@
         "value" : "(Elucidation) specifically depends on is a relation between a specifically dependent continuant b and specifically dependent continuant or independent continuant that is not a spatial region c such that b and c share no parts in common & b is of a nature such that at all times t it cannot exist unless c exists & b is not a boundary of c",
         "type" : "label"
       } ],
-      "example" : [ {
-        "identifier" : "example",
-        "language" : "en",
-        "value" : "A shape specifically depends on the shaped object; hue, saturation and brightness of a colour sample specifically depends on each other",
-        "type" : "label"
-      } ],
       "scopeNote" : [ {
         "identifier" : "scopeNote",
         "language" : "en",
         "value" : "The analogue of specifically depends on for occurrents is has participant.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "A shape specifically depends on the shaped object; hue, saturation and brightness of a colour sample specifically depends on each other",
         "type" : "label"
       } ]
     },
@@ -5071,13 +5071,13 @@
       "en" : "specifically depends on"
     },
     "domain" : "60",
-    "subproperty" : [ "162" ],
+    "subproperty" : [ "161" ],
     "attributes" : [ "object", "external" ],
     "id" : "200"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "160",
+    "range" : "148",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -5090,10 +5090,10 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "95",
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "203"
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "202"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000199",
     "baseIri" : "http://purl.obolibrary.org/obo",
@@ -5110,13 +5110,13 @@
       "IRI-based" : "BFO_0000199",
       "en" : "occupies temporal region"
     },
-    "domain" : "205",
-    "attributes" : [ "functional", "object", "external" ],
-    "id" : "204"
+    "domain" : "204",
+    "attributes" : [ "object", "external", "functional" ],
+    "id" : "203"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "137",
+    "range" : "207",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -5129,14 +5129,14 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "95",
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "207"
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "206"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "158",
+    "range" : "148",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -5149,9 +5149,9 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "91",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "208"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
@@ -5169,14 +5169,14 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "93",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "209"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "160",
+    "range" : "165",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -5189,9 +5189,9 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "91",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "211"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
@@ -5209,14 +5209,14 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "91",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "212"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "160",
+    "range" : "148",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -5229,14 +5229,14 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "93",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "214"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "160",
+    "range" : "165",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -5249,14 +5249,14 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "89",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "215"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
     "baseIri" : "https://ebrahimnorouzi.github.io/pizza-bfo",
-    "range" : "158",
+    "range" : "165",
     "annotations" : {
       "IAO_0000115" : [ {
         "identifier" : "IAO_0000115",
@@ -5269,9 +5269,9 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "93",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "216"
   }, {
     "iri" : "https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004",
@@ -5289,9 +5289,9 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "93",
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "217"
   }, {
     "range" : "59",
@@ -5334,7 +5334,7 @@
       "IRI-based" : "PIZZABFO_0001004",
       "en" : "has topping"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "38",
     "attributes" : [ "object", "external" ],
     "id" : "172"
@@ -5354,7 +5354,7 @@
       "IRI-based" : "PIZZABFO_0001003",
       "en" : "has base"
     },
-    "superproperty" : [ "148" ],
+    "superproperty" : [ "149" ],
     "domain" : "38",
     "attributes" : [ "object", "external" ],
     "id" : "173"
@@ -5415,7 +5415,7 @@
     "id" : "234"
   }, {
     "range" : "29",
-    "domain" : "158",
+    "domain" : "165",
     "attributes" : [ "object", "anonymous" ],
     "id" : "235"
   }, {
@@ -5425,7 +5425,7 @@
     "id" : "236"
   }, {
     "range" : "46",
-    "domain" : "202",
+    "domain" : "207",
     "attributes" : [ "object", "anonymous" ],
     "id" : "237"
   }, {
@@ -5435,12 +5435,17 @@
     "id" : "238"
   }, {
     "range" : "48",
-    "domain" : "160",
+    "domain" : "148",
     "attributes" : [ "object", "anonymous" ],
     "id" : "239"
   }, {
+    "range" : "60",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
-    "inverse" : "148",
+    "inverse" : "149",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "62",
     "annotations" : {
@@ -5474,12 +5479,7 @@
       "en" : "continuant part of"
     },
     "domain" : "62",
-    "attributes" : [ "allValues", "object", "external" ],
-    "id" : "240"
-  }, {
-    "range" : "60",
-    "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "object", "external", "allValues" ],
     "id" : "241"
   }, {
     "range" : "61",
@@ -5493,7 +5493,7 @@
     "id" : "243"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
-    "inverse" : "148",
+    "inverse" : "149",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "68",
     "annotations" : {
@@ -5527,7 +5527,7 @@
       "en" : "continuant part of"
     },
     "domain" : "68",
-    "attributes" : [ "allValues", "object", "external" ],
+    "attributes" : [ "object", "external", "allValues" ],
     "id" : "244"
   }, {
     "range" : "14",
@@ -5546,7 +5546,7 @@
     "id" : "247"
   }, {
     "iri" : "http://purl.obolibrary.org/obo/BFO_0000176",
-    "inverse" : "148",
+    "inverse" : "149",
     "baseIri" : "http://purl.obolibrary.org/obo",
     "range" : "58",
     "annotations" : {
@@ -5580,7 +5580,7 @@
       "en" : "continuant part of"
     },
     "domain" : "58",
-    "attributes" : [ "allValues", "object", "external" ],
+    "attributes" : [ "object", "external", "allValues" ],
     "id" : "248"
   }, {
     "range" : "63",
@@ -5609,7 +5609,7 @@
     "id" : "253"
   }, {
     "range" : "9",
-    "domain" : "206",
+    "domain" : "205",
     "attributes" : [ "object", "anonymous" ],
     "id" : "254"
   }, {
