@@ -1,0 +1,9 @@
+# CQ5 and CQ6: What does a pizza baking involve - who, which role, where and when?
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?relation ?what WHERE {
+  ?baking rdfs:label "pizza baking"@en .
+  ?baking rdfs:subClassOf [ owl:onProperty ?p ; owl:someValuesFrom ?filler ] .
+  ?p rdfs:label ?relation .
+  ?filler rdfs:label ?what .
+} ORDER BY ?relation

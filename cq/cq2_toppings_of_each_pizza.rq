@@ -1,0 +1,10 @@
+# CQ2: Which toppings does each named pizza have?
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?pizza ?topping WHERE {
+  ?named rdfs:label "named pizza"@en .
+  ?hasTopping rdfs:label "has topping"@en .
+  ?class rdfs:subClassOf ?named ; rdfs:label ?pizza ;
+         rdfs:subClassOf [ owl:onProperty ?hasTopping ; owl:someValuesFrom ?t ] .
+  ?t rdfs:label ?topping .
+} ORDER BY ?pizza ?topping
