@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/pizzabfo
+
+idspace: PIZZABFO
+base_url: /obo/pizzabfo
+
+products:
+- pizzabfo.owl: https://raw.githubusercontent.com//pizzabfo/main/pizzabfo.owl
+- pizzabfo.obo: https://raw.githubusercontent.com//pizzabfo/main/pizzabfo.obo
+
+term_browser: ontobee
+example_terms:
+- PIZZABFO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com//pizzabfo/v
+
+- prefix: /tracker/
+  replacement: https://github.com//pizzabfo/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/PIZZABFO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com//pizzabfo/main/
+
