@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                8d1fd08f2392b3f6c71442d0cb18772316f87fc0e984525a65444fa8a8bd490f
+CONFIG_HASH=                7972163d24e0fa6ed18f4f444bca78d1914b6b6d6567cc85b371c9bd26b3bc4e
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS = 
+IMPORTS =  bfo
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -445,6 +445,13 @@ no-mirror-refresh-%:
 # ----------------------------------------
 
 ifeq ($(MIR),true)
+
+
+## ONTOLOGY: bfo
+.PHONY: mirror-bfo
+.PRECIOUS: $(MIRRORDIR)/bfo.owl
+mirror-bfo: | $(TMPDIR)
+	$(ROBOT) convert -I http://purl.obolibrary.org/obo/bfo/2020/bfo.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

@@ -1,0 +1,8 @@
+# CQ3: cheesy and meaty pizzas must be defined, so the reasoner finds them
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?kind WHERE {
+  VALUES ?label { "cheesy pizza"@en "meaty pizza"@en }
+  ?kind rdfs:label ?label .
+  FILTER NOT EXISTS { ?kind owl:equivalentClass ?definition }
+}

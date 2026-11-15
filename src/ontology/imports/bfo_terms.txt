@@ -1,0 +1,20 @@
+# Terms extracted into bfo_import.owl
+# Source: http://purl.obolibrary.org/obo/bfo/2020/bfo.owl
+# One term per line. This file is what makes the module rebuildable:
+# edit it and re-run the import to change what the module contains.
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://purl.obolibrary.org/obo/BFO_0000024 # fiat object part
+http://purl.obolibrary.org/obo/BFO_0000027 # object aggregate
+http://purl.obolibrary.org/obo/BFO_0000029 # site
+http://purl.obolibrary.org/obo/BFO_0000030 # object
+http://purl.obolibrary.org/obo/BFO_0000038 # one-dimensional temporal region
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://purl.obolibrary.org/obo/BFO_0000055 # realizes
+http://purl.obolibrary.org/obo/BFO_0000066 # occurs in
+http://purl.obolibrary.org/obo/BFO_0000176 # continuant part of
+http://purl.obolibrary.org/obo/BFO_0000178 # has continuant part
+http://purl.obolibrary.org/obo/BFO_0000196 # bearer of
+http://purl.obolibrary.org/obo/BFO_0000197 # inheres in
