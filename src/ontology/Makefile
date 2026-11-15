@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                57e454c3ab2cc629c7e1f3930c7c1596ed0aeae978e23787f8b9bf723131f994
+CONFIG_HASH=                4f25fbda9d511de42537a578548e157d8502d29dc51b6720a866f785631910df
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo bfo_specific_dependence_and_inherence
+IMPORTS =  bfo bfo_process_site_and_history bfo_specific_dependence_and_inherence nfdi-organization-identified-located nfdi-process-role-realization nfdi-role-borne-by-agent nfdi-temporal-region
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -274,10 +274,10 @@ endif
 # ----------------------------------------
 
 $(REPORTDIR)/$(SRC)-obo-report.tsv: $(SRCMERGED) | $(REPORTDIR)
-	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --print 5 -o $@
+	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/PIZZABFO_ --base-iri $(URIBASE)/pizzabfo --print 5 -o $@
 
 $(REPORTDIR)/%-obo-report.tsv: % | $(REPORTDIR)
-	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --print 5 -o $@
+	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/PIZZABFO_ --base-iri $(URIBASE)/pizzabfo --print 5 -o $@
 
 check_for_robot_updates:	
 	@cut -f2 "/tools/templates/src/ontology/profile.txt" | sort > $(TMPDIR)/sorted_tsv2.txt
@@ -414,9 +414,39 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms.txt \
 
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
 
+## Module for ontology: bfo_process_site_and_history (custom)
+$(IMPORTDIR)/bfo_process_site_and_history_import.owl: 
+	@echo "ERROR: You have configured bfo_process_site_and_history as a custom module;"
+	@echo "       This rule needs to be overwritten in pizzabfo.Makefile!"
+	@false
+
 ## Module for ontology: bfo_specific_dependence_and_inherence (custom)
 $(IMPORTDIR)/bfo_specific_dependence_and_inherence_import.owl: 
 	@echo "ERROR: You have configured bfo_specific_dependence_and_inherence as a custom module;"
+	@echo "       This rule needs to be overwritten in pizzabfo.Makefile!"
+	@false
+
+## Module for ontology: nfdi-organization-identified-located (custom)
+$(IMPORTDIR)/nfdi-organization-identified-located_import.owl: 
+	@echo "ERROR: You have configured nfdi-organization-identified-located as a custom module;"
+	@echo "       This rule needs to be overwritten in pizzabfo.Makefile!"
+	@false
+
+## Module for ontology: nfdi-process-role-realization (custom)
+$(IMPORTDIR)/nfdi-process-role-realization_import.owl: 
+	@echo "ERROR: You have configured nfdi-process-role-realization as a custom module;"
+	@echo "       This rule needs to be overwritten in pizzabfo.Makefile!"
+	@false
+
+## Module for ontology: nfdi-role-borne-by-agent (custom)
+$(IMPORTDIR)/nfdi-role-borne-by-agent_import.owl: 
+	@echo "ERROR: You have configured nfdi-role-borne-by-agent as a custom module;"
+	@echo "       This rule needs to be overwritten in pizzabfo.Makefile!"
+	@false
+
+## Module for ontology: nfdi-temporal-region (custom)
+$(IMPORTDIR)/nfdi-temporal-region_import.owl: 
+	@echo "ERROR: You have configured nfdi-temporal-region as a custom module;"
 	@echo "       This rule needs to be overwritten in pizzabfo.Makefile!"
 	@false
 
@@ -460,7 +490,27 @@ mirror-bfo: | $(TMPDIR)
 	$(ROBOT) convert -I http://purl.obolibrary.org/obo/bfo/2020/bfo.owl -o $(TMPDIR)/$@.owl
 
 
+## ONTOLOGY: bfo_process_site_and_history
+## You have configured your default mirror type to no_mirror.
+
+
 ## ONTOLOGY: bfo_specific_dependence_and_inherence
+## You have configured your default mirror type to no_mirror.
+
+
+## ONTOLOGY: nfdi-organization-identified-located
+## You have configured your default mirror type to no_mirror.
+
+
+## ONTOLOGY: nfdi-process-role-realization
+## You have configured your default mirror type to no_mirror.
+
+
+## ONTOLOGY: nfdi-role-borne-by-agent
+## You have configured your default mirror type to no_mirror.
+
+
+## ONTOLOGY: nfdi-temporal-region
 ## You have configured your default mirror type to no_mirror.
 
 

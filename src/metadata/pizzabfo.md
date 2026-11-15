@@ -31,7 +31,12 @@ products:
     name: "Pizza BFO Ontology additional release in OBOJSon format"
 dependencies:
 - id: bfo
+- id: bfo_process_site_and_history
 - id: bfo_specific_dependence_and_inherence
+- id: nfdi-organization-identified-located
+- id: nfdi-process-role-realization
+- id: nfdi-role-borne-by-agent
+- id: nfdi-temporal-region
 tracker: https://github.com//pizzabfo/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/

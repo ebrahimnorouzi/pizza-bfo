@@ -9,11 +9,17 @@ Prefix(prov:=<http://www.w3.org/ns/prov#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(ontology:=<https://nfdi.fiz-karlsruhe.de/ontology/>)
 
 
 Ontology(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl>
 Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_import.owl>)
+Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_process_site_and_history_import.owl>)
 Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_specific_dependence_and_inherence_import.owl>)
+Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-organization-identified-located_import.owl>)
+Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-process-role-realization_import.owl>)
+Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-role-borne-by-agent_import.owl>)
+Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/nfdi-temporal-region_import.owl>)
 Annotation(dcterms:description "A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates."@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Pizza BFO Ontology"@en)
@@ -50,6 +56,10 @@ Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029>)
 Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030>))
 Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031>))
 Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036>))
 Declaration(ObjectProperty(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001003>))
 Declaration(ObjectProperty(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004>))
 Declaration(AnnotationProperty(obo:IAO_0000115))
@@ -288,6 +298,36 @@ EquivalentClasses(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031> 
 AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032> "Any pizza that has at least one spicy topping."@en)
 AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032> "spicy pizza"@en)
 EquivalentClasses(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032> ObjectIntersectionOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000> ObjectSomeValuesFrom(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004> <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031>)))
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033> (pizza oven)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033> "An oven a pizzeria bakes its pizzas in."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033> "pizza oven"@en)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033> obo:BFO_0000030)
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034> (pizzeria)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034> "An organization that makes and sells pizzas."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034> "pizzeria"@en)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034> obo:OBI_0000245)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001034> ObjectSomeValuesFrom(obo:RO_0001025 ontology:NFDI_0000106))
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035> (pizza baker role)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035> "The role of an agent who bakes pizzas, realized in pizza baking."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035> "pizza baker role"@en)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035> obo:BFO_0000023)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035> ObjectSomeValuesFrom(obo:RO_0000081 ontology:NFDI_0000102))
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036> (pizza baking)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036> "A process in which a pizza is baked in a pizza oven by an agent in the pizza baker role."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036> "pizza baking"@en)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036> obo:BFO_0000015)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036> ObjectSomeValuesFrom(obo:BFO_0000055 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001035>))
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036> ObjectSomeValuesFrom(obo:BFO_0000066 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001033>))
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036> ObjectSomeValuesFrom(obo:BFO_0000199 obo:BFO_0000038))
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001036> ObjectSomeValuesFrom(obo:RO_0000057 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000>))
 
 
 )

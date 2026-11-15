@@ -1,0 +1,18 @@
+# Terms extracted into bfo_process_site_and_history_import.owl
+# Pattern: bfo-process-site-and-history
+# From OntoBoard's pattern library, so nothing downloads it and Refresh
+# imports leaves it alone. To change what the module contains, use
+# OntoBoard > ROBOT > Pattern library... and import the pattern again.
+# One term per line.
+http://purl.obolibrary.org/obo/BFO_0000003
+http://purl.obolibrary.org/obo/BFO_0000004
+http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/BFO_0000029
+http://purl.obolibrary.org/obo/BFO_0000035
+http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/BFO_0000066
+http://purl.obolibrary.org/obo/BFO_0000141
+http://purl.obolibrary.org/obo/BFO_0000182
+http://purl.obolibrary.org/obo/BFO_0000183
+http://purl.obolibrary.org/obo/BFO_0000184
+http://purl.obolibrary.org/obo/BFO_0000185

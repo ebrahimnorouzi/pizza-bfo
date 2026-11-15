@@ -57,3 +57,14 @@ Each query in this folder run against the released `pizzabfo.owl` (reasoned with
 | spicy pizza | diavola |
 | spicy topping | chili pepper topping |
 | spicy topping | spicy salami topping |
+
+## CQ5 and CQ6: What does a pizza baking involve - who, which role, where and when?
+
+`cq5_who_bakes_where_and_when.rq` - 4 row(s)
+
+| relation | what |
+|---|---|
+| has participant | pizza |
+| occupies temporal region | one-dimensional temporal region |
+| occurs in | pizza oven |
+| realizes | pizza baker role |
