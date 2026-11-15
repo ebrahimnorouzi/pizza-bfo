@@ -1,0 +1,77 @@
+# 0.2.0
+
+71 added (3 axioms to 431).
+
+## Added
+
+- `BFO_0000001` entity
+- `BFO_0000002` continuant
+- `BFO_0000003` occurrent
+- `BFO_0000004` independent continuant
+- `BFO_0000006` spatial region
+- `BFO_0000008` temporal region
+- `BFO_0000011` spatiotemporal region
+- `BFO_0000015` process
+- `BFO_0000016` disposition
+- `BFO_0000017` realizable entity
+- `BFO_0000019` quality
+- `BFO_0000020` specifically dependent continuant
+- `BFO_0000023` role
+- `BFO_0000024` fiat object part
+- `BFO_0000027` object aggregate
+- `BFO_0000029` site
+- `BFO_0000030` object
+- `BFO_0000031` generically dependent continuant
+- `BFO_0000035` process boundary
+- `BFO_0000038` one-dimensional temporal region
+- `BFO_0000040` material entity
+- `BFO_0000140` continuant fiat boundary
+- `BFO_0000141` immaterial entity
+- `PIZZABFO_0001000` pizza
+- `PIZZABFO_0001001` pizza base
+- `PIZZABFO_0001002` pizza topping
+- `PIZZABFO_0001005` thin and crispy base
+- `PIZZABFO_0001006` deep pan base
+- `PIZZABFO_0001007` cheese topping
+- `PIZZABFO_0001008` meat topping
+- `PIZZABFO_0001009` vegetable topping
+- `PIZZABFO_0001010` fruit topping
+- `PIZZABFO_0001011` mozzarella topping
+- `PIZZABFO_0001012` parmesan topping
+- `PIZZABFO_0001013` gorgonzola topping
+- `PIZZABFO_0001014` ham topping
+- `PIZZABFO_0001015` spicy salami topping
+- `PIZZABFO_0001016` tomato topping
+- `PIZZABFO_0001017` mushroom topping
+- `PIZZABFO_0001018` chili pepper topping
+- `PIZZABFO_0001019` pineapple topping
+- `PIZZABFO_0001020` named pizza
+- `PIZZABFO_0001021` margherita
+- `PIZZABFO_0001022` diavola
+- `PIZZABFO_0001023` quattro formaggi
+- `PIZZABFO_0001024` funghi
+- `PIZZABFO_0001025` hawaiian
+- `PIZZABFO_0001026` cheesy pizza
+- `PIZZABFO_0001027` meaty pizza
+- `BFO_0000054` has realization (object property)
+- `BFO_0000055` realizes (object property)
+- `BFO_0000066` occurs in (object property)
+- `BFO_0000176` continuant part of (object property)
+- `BFO_0000178` has continuant part (object property)
+- `BFO_0000183` environs (object property)
+- `BFO_0000194` specifically depended on by (object property)
+- `BFO_0000195` specifically depends on (object property)
+- `BFO_0000196` bearer of (object property)
+- `BFO_0000197` inheres in (object property)
+- `PIZZABFO_0001003` has base (object property)
+- `PIZZABFO_0001004` has topping (object property)
+- `IAO_0000115` (annotation property)
+- `identifier` (annotation property)
+- `created` (annotation property)
+- `source` (annotation property)
+- `altLabel` (annotation property)
+- `definition` (annotation property)
+- `example` (annotation property)
+- `prefLabel` (annotation property)
+- `scopeNote` (annotation property)
+- `wasDerivedFrom` (annotation property)
