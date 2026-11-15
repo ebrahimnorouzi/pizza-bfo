@@ -2,5 +2,6 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
   <group id="odk-managed-catalog" prefer="public">
     <uri name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_import.owl" uri="imports/bfo_import.owl" />
+    <uri name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_specific_dependence_and_inherence_import.owl" uri="imports/bfo_specific_dependence_and_inherence_import.owl" />
   </group>
 </catalog>

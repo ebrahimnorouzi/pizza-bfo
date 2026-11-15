@@ -31,6 +31,7 @@ products:
     name: "Pizza BFO Ontology additional release in OBOJSon format"
 dependencies:
 - id: bfo
+- id: bfo_specific_dependence_and_inherence
 tracker: https://github.com//pizzabfo/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/

@@ -13,6 +13,7 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo.owl>
 Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_import.owl>)
+Import(<https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/imports/bfo_specific_dependence_and_inherence_import.owl>)
 Annotation(dcterms:description "A pizza ontology aligned to BFO 2020 - the BFO that NFDIcore 3.0.5 builds on - and made from BFO and NFDIcore design patterns. It holds no individuals: its instance data is a separate knowledge graph built from ROBOT templates."@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Pizza BFO Ontology"@en)
@@ -44,6 +45,11 @@ Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001024>)
 Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001025>))
 Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001026>))
 Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001027>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031>))
+Declaration(Class(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032>))
 Declaration(ObjectProperty(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001003>))
 Declaration(ObjectProperty(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004>))
 Declaration(AnnotationProperty(obo:IAO_0000115))
@@ -161,6 +167,7 @@ SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001014> <https:
 AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001015> "A pizza topping of spicy salami."@en)
 AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001015> "spicy salami topping"@en)
 SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001015> <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001008>)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001015> ObjectSomeValuesFrom(obo:BFO_0000196 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030>))
 
 # Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001016> (tomato topping)
 
@@ -179,6 +186,7 @@ SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001017> <https:
 AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001018> "A pizza topping of chili pepper."@en)
 AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001018> "chili pepper topping"@en)
 SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001018> <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001009>)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001018> ObjectSomeValuesFrom(obo:BFO_0000196 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030>))
 
 # Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001019> (pineapple topping)
 
@@ -249,6 +257,37 @@ EquivalentClasses(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001026> 
 AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001027> "Any pizza that has at least one meat topping."@en)
 AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001027> "meaty pizza"@en)
 EquivalentClasses(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001027> ObjectIntersectionOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000> ObjectSomeValuesFrom(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004> <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001008>)))
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028> (spiciness)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028> "The quality of a food of being hot to taste, which inheres in the food."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028> "spiciness"@en)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028> obo:BFO_0000019)
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029> (mild spiciness)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029> "A spiciness that is barely hot."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029> "mild spiciness"@en)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029> <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028>)
+DisjointClasses(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001029> <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030>)
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030> (hot spiciness)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030> "A spiciness that is clearly hot."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030> "hot spiciness"@en)
+SubClassOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030> <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001028>)
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031> (spicy topping)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031> "A pizza topping that bears a hot spiciness."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031> "spicy topping"@en)
+EquivalentClasses(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031> ObjectIntersectionOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001002> ObjectSomeValuesFrom(obo:BFO_0000196 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001030>)))
+
+# Class: <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032> (spicy pizza)
+
+AnnotationAssertion(obo:IAO_0000115 <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032> "Any pizza that has at least one spicy topping."@en)
+AnnotationAssertion(rdfs:label <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032> "spicy pizza"@en)
+EquivalentClasses(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001032> ObjectIntersectionOf(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001000> ObjectSomeValuesFrom(<https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001004> <https://ebrahimnorouzi.github.io/pizza-bfo/PIZZABFO_0001031>)))
 
 
 )

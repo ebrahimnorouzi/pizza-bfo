@@ -1,0 +1,15 @@
+# CQ4: spiciness must be a BFO quality, and spicy toppings and pizzas must be defined
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?problem WHERE {
+  {
+    ?s rdfs:label "spiciness"@en .
+    FILTER NOT EXISTS { ?s rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> }
+    BIND("spiciness is not a quality" AS ?problem)
+  } UNION {
+    VALUES ?label { "spicy topping"@en "spicy pizza"@en }
+    ?k rdfs:label ?label .
+    FILTER NOT EXISTS { ?k owl:equivalentClass ?definition }
+    BIND(CONCAT(STR(?label), " is not defined") AS ?problem)
+  }
+}

@@ -1,0 +1,26 @@
+# Terms extracted into bfo_specific_dependence_and_inherence_import.owl
+# Pattern: bfo-specific-dependence-and-inherence
+# From OntoBoard's pattern library, so nothing downloads it and Refresh
+# imports leaves it alone. To change what the module contains, use
+# OntoBoard > ROBOT > Pattern library... and import the pattern again.
+# One term per line.
+http://purl.obolibrary.org/obo/BFO_0000002
+http://purl.obolibrary.org/obo/BFO_0000003
+http://purl.obolibrary.org/obo/BFO_0000004
+http://purl.obolibrary.org/obo/BFO_0000006
+http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/BFO_0000016
+http://purl.obolibrary.org/obo/BFO_0000017
+http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/BFO_0000020
+http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/BFO_0000031
+http://purl.obolibrary.org/obo/BFO_0000034
+http://purl.obolibrary.org/obo/BFO_0000054
+http://purl.obolibrary.org/obo/BFO_0000055
+http://purl.obolibrary.org/obo/BFO_0000141
+http://purl.obolibrary.org/obo/BFO_0000145
+http://purl.obolibrary.org/obo/BFO_0000194
+http://purl.obolibrary.org/obo/BFO_0000195
+http://purl.obolibrary.org/obo/BFO_0000196
+http://purl.obolibrary.org/obo/BFO_0000197

@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                7972163d24e0fa6ed18f4f444bca78d1914b6b6d6567cc85b371c9bd26b3bc4e
+CONFIG_HASH=                57e454c3ab2cc629c7e1f3930c7c1596ed0aeae978e23787f8b9bf723131f994
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo
+IMPORTS =  bfo bfo_specific_dependence_and_inherence
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -414,6 +414,12 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms.txt \
 
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
 
+## Module for ontology: bfo_specific_dependence_and_inherence (custom)
+$(IMPORTDIR)/bfo_specific_dependence_and_inherence_import.owl: 
+	@echo "ERROR: You have configured bfo_specific_dependence_and_inherence as a custom module;"
+	@echo "       This rule needs to be overwritten in pizzabfo.Makefile!"
+	@false
+
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -452,6 +458,10 @@ ifeq ($(MIR),true)
 .PRECIOUS: $(MIRRORDIR)/bfo.owl
 mirror-bfo: | $(TMPDIR)
 	$(ROBOT) convert -I http://purl.obolibrary.org/obo/bfo/2020/bfo.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: bfo_specific_dependence_and_inherence
+## You have configured your default mirror type to no_mirror.
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

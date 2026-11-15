@@ -47,3 +47,13 @@ Each query in this folder run against the released `pizzabfo.owl` (reasoned with
 | quattro formaggi | cheesy pizza |
 | diavola | meaty pizza |
 | hawaiian | meaty pizza |
+
+## CQ4: Which toppings are hot, and so which pizzas are spicy? (inferred by the reasoner)
+
+`cq4_spicy_toppings_and_pizzas.rq` - 3 row(s)
+
+| kind | member |
+|---|---|
+| spicy pizza | diavola |
+| spicy topping | chili pepper topping |
+| spicy topping | spicy salami topping |
