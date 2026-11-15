@@ -1,0 +1,7 @@
+# CQ4: Which toppings are hot, and so which pizzas are spicy? (inferred by the reasoner)
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?kind ?member WHERE {
+  VALUES ?label { "spicy topping"@en "spicy pizza"@en }
+  ?k rdfs:label ?label ; rdfs:label ?kind .
+  ?class rdfs:subClassOf ?k ; rdfs:label ?member .
+} ORDER BY ?kind ?member

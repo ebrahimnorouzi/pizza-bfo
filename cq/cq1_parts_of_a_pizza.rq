@@ -1,0 +1,8 @@
+# CQ1: What parts does a pizza have - its base and its toppings?
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?part_relation ?kind_of_part WHERE {
+  ?pizza rdfs:label "pizza"@en .
+  ?property rdfs:subPropertyOf <http://purl.obolibrary.org/obo/BFO_0000178> ;
+            rdfs:domain ?pizza ; rdfs:range ?range ; rdfs:label ?part_relation .
+  ?range rdfs:label ?kind_of_part .
+} ORDER BY ?part_relation
