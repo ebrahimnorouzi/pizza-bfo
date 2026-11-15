@@ -1,0 +1,5 @@
+ID	Type	Name	First instant	Last instant
+ID	TYPE	AL rdfs:label@en	I BFO:0000222	I BFO:0000224
+kg:PB_0000601	one-dimensional temporal region	18:00 to 18:02 on 2026-11-01	2026-11-01 18:00	2026-11-01 18:02
+kg:PB_0000602	one-dimensional temporal region	18:05 to 18:08 on 2026-11-01	2026-11-01 18:05	2026-11-01 18:08
+kg:PB_0000603	one-dimensional temporal region	19:30 to 19:33 on 2026-11-01	2026-11-01 19:30	2026-11-01 19:33

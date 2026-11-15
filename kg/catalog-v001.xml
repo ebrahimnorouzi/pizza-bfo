@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <!-- The release of the ontology this graph is about, by its version IRI, so the graph
+         always means what 1.0.0 meant. -->
+    <uri name="https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/1.0.0" uri="../releases/1.0.0/pizzabfo.owl"/>
+</catalog>

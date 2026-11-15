@@ -1,0 +1,10 @@
+# CQ5: Who baked each pizza, in which oven, and over which period?
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX nfdi: <https://nfdi.fiz-karlsruhe.de/ontology/>
+SELECT ?pizza ?baker ?oven ?from ?to WHERE {
+  ?baking obo:RO_0000057 ?p ; obo:BFO_0000055 ?role ; obo:BFO_0000066 ?o ; obo:BFO_0000199 ?when .
+  ?role obo:RO_0000081 ?b .
+  ?when obo:BFO_0000222/nfdi:NFDI_0001007 ?from ; obo:BFO_0000224/nfdi:NFDI_0001007 ?to .
+  ?p rdfs:label ?pizza . ?b rdfs:label ?baker . ?o rdfs:label ?oven .
+} ORDER BY ?from

@@ -1,0 +1,183 @@
+@prefix : <https://ebrahimnorouzi.github.io/pizza-bfo/kg/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfdi: <https://nfdi.fiz-karlsruhe.de/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pizzabfo: <https://ebrahimnorouzi.github.io/pizza-bfo/> .
+
+pizzabfo:kg.owl a owl:Ontology ;
+	owl:versionIRI :1.1.0 ;
+	owl:imports <https://ebrahimnorouzi.github.io/pizza-bfo/pizzabfo/1.0.0> ;
+	dcterms:description "What two pizzerias baked on 2026-11-01: the pizzerias and their cities, the bakers and the roles they realize, the ovens, the pizzas and each baking with its period. Instance data for the Pizza BFO Ontology 1.0.0, made from the ROBOT templates in kg/templates/."@en ;
+	dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+	rdfs:label "Pizza BFO knowledge graph"@en ;
+	owl:versionInfo "1.1.0"^^xsd:string .
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000001
+
+:PB_0000001 a owl:NamedIndividual , nfdi:NFDI_0000106 ;
+	rdfs:label "Karlsruhe"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000002
+
+:PB_0000002 a owl:NamedIndividual , nfdi:NFDI_0000106 ;
+	rdfs:label "Naples"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000101
+
+:PB_0000101 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001034 ;
+	obo:RO_0001025 :PB_0000001 ;
+	rdfs:label "Pizzeria Da Luigi"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000102
+
+:PB_0000102 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001034 ;
+	obo:RO_0001025 :PB_0000002 ;
+	rdfs:label "Pizzeria Napoli Centrale"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000201
+
+:PB_0000201 a owl:NamedIndividual , nfdi:NFDI_0000102 ;
+	rdfs:label "Luigi Rossi"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000202
+
+:PB_0000202 a owl:NamedIndividual , nfdi:NFDI_0000102 ;
+	rdfs:label "Maria Esposito"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000301
+
+:PB_0000301 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001035 ;
+	obo:RO_0000081 :PB_0000201 ;
+	rdfs:label "baker role of Luigi Rossi"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000302
+
+:PB_0000302 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001035 ;
+	obo:RO_0000081 :PB_0000202 ;
+	rdfs:label "baker role of Maria Esposito"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000401
+
+:PB_0000401 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001033 ;
+	obo:RO_0001025 :PB_0000101 ;
+	rdfs:label "wood-fired oven at Da Luigi"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000402
+
+:PB_0000402 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001033 ;
+	obo:RO_0001025 :PB_0000102 ;
+	rdfs:label "oven at Napoli Centrale"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000501
+
+:PB_0000501 a owl:NamedIndividual , obo:BFO_0000148 ;
+	nfdi:NFDI_0001007 "2026-11-01T18:00:00"^^xsd:dateTime ;
+	rdfs:label "2026-11-01 18:00"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000502
+
+:PB_0000502 a owl:NamedIndividual , obo:BFO_0000148 ;
+	nfdi:NFDI_0001007 "2026-11-01T18:02:00"^^xsd:dateTime ;
+	rdfs:label "2026-11-01 18:02"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000503
+
+:PB_0000503 a owl:NamedIndividual , obo:BFO_0000148 ;
+	nfdi:NFDI_0001007 "2026-11-01T18:05:00"^^xsd:dateTime ;
+	rdfs:label "2026-11-01 18:05"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000504
+
+:PB_0000504 a owl:NamedIndividual , obo:BFO_0000148 ;
+	nfdi:NFDI_0001007 "2026-11-01T18:08:00"^^xsd:dateTime ;
+	rdfs:label "2026-11-01 18:08"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000505
+
+:PB_0000505 a owl:NamedIndividual , obo:BFO_0000148 ;
+	nfdi:NFDI_0001007 "2026-11-01T19:30:00"^^xsd:dateTime ;
+	rdfs:label "2026-11-01 19:30"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000506
+
+:PB_0000506 a owl:NamedIndividual , obo:BFO_0000148 ;
+	nfdi:NFDI_0001007 "2026-11-01T19:33:00"^^xsd:dateTime ;
+	rdfs:label "2026-11-01 19:33"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000601
+
+:PB_0000601 a owl:NamedIndividual , obo:BFO_0000038 ;
+	obo:BFO_0000222 :PB_0000501 ;
+	obo:BFO_0000224 :PB_0000502 ;
+	rdfs:label "18:00 to 18:02 on 2026-11-01"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000602
+
+:PB_0000602 a owl:NamedIndividual , obo:BFO_0000038 ;
+	obo:BFO_0000222 :PB_0000503 ;
+	obo:BFO_0000224 :PB_0000504 ;
+	rdfs:label "18:05 to 18:08 on 2026-11-01"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000603
+
+:PB_0000603 a owl:NamedIndividual , obo:BFO_0000038 ;
+	obo:BFO_0000222 :PB_0000505 ;
+	obo:BFO_0000224 :PB_0000506 ;
+	rdfs:label "19:30 to 19:33 on 2026-11-01"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000701
+
+:PB_0000701 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001021 ;
+	rdfs:label "order 1, a margherita"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000702
+
+:PB_0000702 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001022 ;
+	rdfs:label "order 2, a diavola"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000703
+
+:PB_0000703 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001023 ;
+	rdfs:label "order 3, a quattro formaggi"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000801
+
+:PB_0000801 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001036 ;
+	obo:BFO_0000055 :PB_0000301 ;
+	obo:BFO_0000066 :PB_0000401 ;
+	obo:BFO_0000199 :PB_0000601 ;
+	obo:RO_0000057 :PB_0000701 ;
+	rdfs:label "baking of order 1"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000802
+
+:PB_0000802 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001036 ;
+	obo:BFO_0000055 :PB_0000301 ;
+	obo:BFO_0000066 :PB_0000401 ;
+	obo:BFO_0000199 :PB_0000602 ;
+	obo:RO_0000057 :PB_0000702 ;
+	rdfs:label "baking of order 2"@en .
+# 
+# https://ebrahimnorouzi.github.io/pizza-bfo/kg/PB_0000803
+
+:PB_0000803 a owl:NamedIndividual , pizzabfo:PIZZABFO_0001036 ;
+	obo:BFO_0000055 :PB_0000302 ;
+	obo:BFO_0000066 :PB_0000402 ;
+	obo:BFO_0000199 :PB_0000603 ;
+	obo:RO_0000057 :PB_0000703 ;
+	rdfs:label "baking of order 3"@en .
+# 
+# Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,5 @@
+ID	Type	Name	Pizza	Role realized	Oven	When
+ID	TYPE	AL rdfs:label@en	I RO:0000057	I BFO:0000055	I BFO:0000066	I BFO:0000199
+kg:PB_0000801	pizza baking	baking of order 1	order 1, a margherita	baker role of Luigi Rossi	wood-fired oven at Da Luigi	18:00 to 18:02 on 2026-11-01
+kg:PB_0000802	pizza baking	baking of order 2	order 2, a diavola	baker role of Luigi Rossi	wood-fired oven at Da Luigi	18:05 to 18:08 on 2026-11-01
+kg:PB_0000803	pizza baking	baking of order 3	order 3, a quattro formaggi	baker role of Maria Esposito	oven at Napoli Centrale	19:30 to 19:33 on 2026-11-01

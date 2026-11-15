@@ -1,0 +1,8 @@
+ID	Type	Name	Value
+ID	TYPE	AL rdfs:label@en	I nfdi:NFDI_0001007
+kg:PB_0000501	zero-dimensional temporal region	2026-11-01 18:00	2026-11-01T18:00:00^^xsd:dateTime
+kg:PB_0000502	zero-dimensional temporal region	2026-11-01 18:02	2026-11-01T18:02:00^^xsd:dateTime
+kg:PB_0000503	zero-dimensional temporal region	2026-11-01 18:05	2026-11-01T18:05:00^^xsd:dateTime
+kg:PB_0000504	zero-dimensional temporal region	2026-11-01 18:08	2026-11-01T18:08:00^^xsd:dateTime
+kg:PB_0000505	zero-dimensional temporal region	2026-11-01 19:30	2026-11-01T19:30:00^^xsd:dateTime
+kg:PB_0000506	zero-dimensional temporal region	2026-11-01 19:33	2026-11-01T19:33:00^^xsd:dateTime

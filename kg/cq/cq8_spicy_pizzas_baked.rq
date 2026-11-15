@@ -1,0 +1,9 @@
+# Which of the pizzas baked are spicy, and who baked them? (the reasoner's conclusion)
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+SELECT ?pizza ?baker WHERE {
+  ?spicy rdfs:label "spicy pizza"@en .
+  ?p a ?spicy ; rdfs:label ?pizza .
+  ?baking obo:RO_0000057 ?p ; obo:BFO_0000055 ?role .
+  ?role obo:RO_0000081 ?b . ?b rdfs:label ?baker .
+}
